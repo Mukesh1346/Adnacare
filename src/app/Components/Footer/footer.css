@@ -1,0 +1,82 @@
+.footer-area {
+    background: #071d2c;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-heading {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  
+  .footer-contact {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-list li {
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 8px;
+    transition: 0.2s;
+  }
+  
+  .footer-list li:hover {
+    text-decoration: underline;
+  }
+
+  .themeBackground{
+    background: #7c5997;
+    color: white;
+  }
+  
+  .footer-store {
+    width: 140px;
+    cursor: pointer;
+  }
+  .Footerlogo{
+    height:80px;
+    width: 180px;
+  }
+  
+  .subscribe-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .subscribe-text {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .footer-form input {
+    height: 42px;
+    border-radius: 6px;
+  }
+  
+  .footer-form button {
+    height: 42px;
+    border-radius: 6px;
+  }
+  
+  .footer-divider {
+    border-color: rgba(255, 255, 255, 0.25);
+    margin-top: 30px;
+  }
+  
+  /* Responsive improvements */
+  @media(max-width: 768px) {
+    .subscribe-title {
+      font-size: 16px;
+    }
+    .footer-store {
+      width: 120px;
+    }
+  }
+  

@@ -1,0 +1,92 @@
+.MainHeroSection{
+    background-color: #f7f5f2;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../images/hero-shape01.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 30%;
+    
+}
+
+
+.HeroTopHeading h2{
+    color: #0b3948;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.HeroSubTitle p{
+    color:gray;
+    font-size: 20px;
+    margin:10px 0px;
+
+}
+.leftMainSec{
+    font-family: Recolata;
+    padding: 200px 0px;
+    width: 90%;
+    text-align: left;
+}
+
+.leftSecHero{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.RightSecImg{
+    height: auto;
+    width: 100%;
+  
+}
+
+.AboutBtn{
+    background-color: #0b3948;
+  
+   padding:10px 80px;
+   color:white;
+   border:none;
+   border-radius: 10px;
+}
+
+
+.BookBtn{
+    background-color: #ffd470;
+    padding:10px 40px;
+    color:#0b3948;
+   border:none;
+   border-radius: 5px;
+
+
+ }
+
+ .buttonSec{
+    gap:10px;
+ }
+ .icon{
+    height:80px;
+    width:80px;
+ }
+
+ .iconSection {
+    padding:50px;
+  gap:10px; 
+}
+
+.Icontext{
+    padding: 0px 30px;
+}
+
+.Icontext h2{
+    color:#0b3948;
+    font-weight: 600;
+
+}
+
+.Icontext p{
+    color:gray;
+
+}

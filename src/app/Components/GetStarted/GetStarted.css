@@ -1,0 +1,76 @@
+.three-steps {
+    max-width: 1200px;
+  }
+  
+  .process-label {
+    color: #0B4C61;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .steps-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0F2B35;
+  }
+  
+  .step-card {
+    position: relative;
+    padding-top: 25px;
+  }
+  
+  .step-card h4 {
+    font-size: 20px;
+    color: #0B4C61;
+    font-weight: 600;
+  }
+  
+  .step-card p {
+    font-size: 15px;
+    color: #555;
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  
+  .step-number {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #0B4C61;
+    color: #0B4C61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Curved connector lines */
+  @media (min-width: 768px) {
+    .step-card {
+      padding-bottom: 20px;
+    }
+  
+    .step-card::after {
+      content: "";
+      width: 120%;
+      height: 2px;
+      border-bottom: 2px dashed #9CB6C1;
+      position: absolute;
+      top: 50%;
+      left: calc(100% + 10px);
+    }
+  
+    .col-md-4:last-child .step-card::after {
+      display: none;
+    }
+  }
+  

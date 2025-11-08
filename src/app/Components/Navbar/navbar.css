@@ -1,0 +1,172 @@
+/* ===========================
+   GLOBAL NAVBAR STYLES
+=========================== */
+.navbar-container {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* ===========================
+     TOP NAVBAR
+  =========================== */
+  .top-navbar {
+    background: #7c5997;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+  }
+  
+  .top-navbar .contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .top-navbar .contact-info i {
+    color: #ffda44;
+    font-size: 1rem;
+  }
+  
+  .top-navbar .social-icons a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .top-navbar .social-icons a:hover {
+    color: #ffda44;
+    transform: scale(1.2);
+  }
+  
+  /* ===========================
+     MID NAVBAR (MAIN)
+  =========================== */
+  .mid-navbar {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+  }
+  
+  .navbar-left a,
+  .navbar-right a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-left a::after,
+  .navbar-right a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #f69d39;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-left a:hover::after,
+  .navbar-right a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-left a:hover,
+  .navbar-right a:hover {
+    color: #6ea537;
+  }
+  
+  .navbar-brand img {
+    max-width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Bootstrap toggler custom */
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30'
+    xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280,0,0,0.5%29'
+    stroke-width='2' stroke-linecap='round' stroke-miterlimit='10'
+    d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
+  } */
+  
+  /* ===========================
+     MOBILE MENU
+  =========================== */
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .mobile-menu a {
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease;
+  }
+  
+  .mobile-menu a:last-child {
+    border-bottom: none;
+  }
+  
+  .mobile-menu a:hover {
+    color:#6ea537;
+  }
+  
+  /* ===========================
+     BOTTOM NAVBAR
+  =========================== */
+  .bottom-navbar {
+    background: #f1f1f1;
+    color: #555;
+    font-size: 0.85rem;
+    border-top: 1px solid #e2e2e2;
+  }
+  
+  /* ===========================
+     RESPONSIVE DESIGN
+  =========================== */
+  @media (max-width: 992px) {
+    .navbar-left,
+    .navbar-right {
+      display: none !important;
+    }
+  
+    .navbar-brand img {
+      max-width: 130px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .top-navbar {
+      flex-direction: column;
+      gap: 6px;
+      text-align: center;
+    }
+  
+    .top-navbar .contact-info {
+      flex-direction: column;
+    }
+  
+    .bottom-navbar {
+      font-size: 0.75rem;
+    }
+  }
+
+  
