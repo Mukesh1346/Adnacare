@@ -11,7 +11,7 @@ export default function HeroSection() {
   <div className='MainHeroSection'>
       <div className='container'>
         <div className='row'>
-            <div className='col-md-6'>
+            <div className='col-md-6 HeroLeftMainSec'>
               <div className="leftSecHero">
                     <div className="leftMainSec">
                         <div className='HeroTopHeading'>
@@ -27,7 +27,7 @@ export default function HeroSection() {
                         </div>
 
                         <div className=' iconSection  d-flex'>
-                            <div className='d-flex'>
+                            <div className='d-flex iconBox1'>
                                 <Image src={icon1} className='icon' alt='icon1' />
                                 <div className='Icontext'>
                                     <h2>220+</h2>
@@ -35,11 +35,11 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div>
-                            <div className='d-flex'>
+                            <div className='d-flex iconBox2'>
                                 <Image src={icon2} className='icon' alt='icon1' />
                                 <div className='Icontext'>
-                                    <h2>220+</h2>
-                                    <p>Expert Team Member</p>
+                                    <h2>98%</h2>
+                                    <p>client satisfaction</p>
                                 </div>
                             </div>
                             </div>

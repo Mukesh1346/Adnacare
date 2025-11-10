@@ -2,7 +2,7 @@
    GLOBAL NAVBAR STYLES
 =========================== */
 .navbar-container {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     width: 100%;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
   }
@@ -11,7 +11,7 @@
      TOP NAVBAR
   =========================== */
   .top-navbar {
-    background: #7c5997;
+    background: #0b3948;
     color: white;
     font-size: 0.9rem;
     letter-spacing: 0.3px;
@@ -76,7 +76,7 @@
   
   .navbar-left a:hover,
   .navbar-right a:hover {
-    color: #6ea537;
+    color: #0b3948;
   }
   
   .navbar-brand img {
@@ -126,7 +126,7 @@
   }
   
   .mobile-menu a:hover {
-    color:#6ea537;
+    color:#0b3948;
   }
   
   /* ===========================
@@ -151,6 +151,9 @@
     .navbar-brand img {
       max-width: 130px;
     }
+    .contact-info{
+      flex-direction: row;
+    }
   }
   
   @media (max-width: 576px) {
@@ -159,10 +162,13 @@
       gap: 6px;
       text-align: center;
     }
-  
-    .top-navbar .contact-info {
-      flex-direction: column;
+    .contact-info{
+      flex-direction: row;
     }
+  
+    /* .top-navbar .contact-info {
+      flex-direction: column;
+    } */
   
     .bottom-navbar {
       font-size: 0.75rem;

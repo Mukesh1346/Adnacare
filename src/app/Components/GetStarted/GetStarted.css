@@ -1,3 +1,19 @@
+.GetStartedMainSection{
+  position: relative;
+}
+
+.OverlayImgSec{
+  position: absolute;
+  top: 350px;
+  left: 490px;
+}
+
+.OverlayImgSec img{
+  width: 552px !important;
+  height: 210px;
+}
+
+
 .three-steps {
     max-width: 1200px;
   }
@@ -12,6 +28,7 @@
   }
   
   .steps-title {
+    font-family: Recolata;
     font-size: 36px;
     font-weight: 700;
     color: #0F2B35;
@@ -35,7 +52,7 @@
     margin: 0 auto;
   }
   
-  .step-number {
+  .step-number1 {
     width: 45px;
     height: 45px;
     background: white;
@@ -48,10 +65,49 @@
     font-weight: 600;
     font-size: 16px;
     position: absolute;
-    top: -22px;
-    left: 50%;
+    top: 157px;
+    left: 85%;
     transform: translateX(-50%);
   }
+
+  .step-number2 {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #0B4C61;
+    color: #0B4C61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: 315px;
+    left: 52%;
+    transform: translateX(-50%);
+  }
+
+  .step-number3 {
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #0B4C61;
+    color: #0B4C61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: 157px;
+    left: 15%;
+    transform: translateX(-50%);
+  }
+
+
+
   
   /* Curved connector lines */
   @media (min-width: 768px) {
@@ -59,16 +115,12 @@
       padding-bottom: 20px;
     }
   
-    .step-card::after {
-      content: "";
-      width: 120%;
-      height: 2px;
-      border-bottom: 2px dashed #9CB6C1;
-      position: absolute;
-      top: 50%;
-      left: calc(100% + 10px);
-    }
-  
+    .steps-title {
+
+      font-size: 25px !important;
+      font-weight: 700;
+      color: #185a72;
+  }
     .col-md-4:last-child .step-card::after {
       display: none;
     }
