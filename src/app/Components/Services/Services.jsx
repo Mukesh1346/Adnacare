@@ -18,7 +18,7 @@ import pic4Hover from "@/app/images/ServiceHover4.png";
 import pic5Hover from "@/app/images/ServiceHover5.png";
 import pic6Hover from "@/app/images/ServiceHover6.png";
 
-export default function MainServices() {
+export default function Services() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const services = [

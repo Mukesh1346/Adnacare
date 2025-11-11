@@ -97,11 +97,22 @@
       border-radius: 12px 12px 0 0;
       height: 220px;
     }
+
+
+    .events-section{
+      padding-bottom: 0px !important;
+    }
+
+    .EventSectionText{
+      padding: 0px 35px;
+    }
   
     .date-box {
       margin-top: 1.2rem;
       width: 100%;
+      height: 150px;
     }
+    
   
     .heading {
       font-size: 2rem;

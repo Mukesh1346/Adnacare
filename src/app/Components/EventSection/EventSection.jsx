@@ -52,7 +52,7 @@ export default function EventsSection() {
 
             {/* Right Content */}
             <div className="col-md-8 bg-white position-relative  rounded-end-3 d-flex flex-column flex-md-row justify-content-between align-items-md-center shadow-sm content-box">
-              <div>
+              <div className="EventSectionText">
                 <p className="text-muted mb-1 small">
                   <i className="bi bi-geo-alt"></i> NSW, Australia
                 </p>

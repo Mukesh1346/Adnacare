@@ -27,10 +27,11 @@ export default function Navbar() {
         <div className="container-fluid">
           {/* LEFT SECTION */}
           <div className="navbar-left d-none d-lg-flex gap-4">
-            <Link href="#">Medical Gloves</Link>
-            <Link href="#">Automotive</Link>
-            <Link href="#">Police</Link>
-            <Link href="#">Food</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/support">Support</Link>
+            <Link href="/disability">Disability</Link>
+            <Link href="/domestic">Domestic</Link>
+            <Link href="/mobility">Mobility</Link>
           </div>
 
           {/* LOGO */}
@@ -40,7 +41,7 @@ export default function Navbar() {
 
           {/* RIGHT SECTION */}
           <div className="navbar-right d-none d-lg-flex gap-4">
-            <Link href="#">Schools</Link>
+            <Link href="/home-modification">HomeModification</Link>
             <Link href="#">Masks</Link>
             <Link href="#">Test Kits</Link>
             <Link href="#">PPE</Link>
@@ -62,7 +63,7 @@ export default function Navbar() {
         {/* ---------- MOBILE MENU ---------- */}
         <div className="collapse navbar-collapse" id="mobileMenu">
           <div className="mobile-menu d-lg-none">
-            <Link href="#">Medical Gloves</Link>
+            <Link href="/homeModification">HomeModification</Link>
             <Link href="#">Automotive</Link>
             <Link href="#">Police</Link>
             <Link href="#">Food</Link>

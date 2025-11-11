@@ -17,7 +17,8 @@
 .three-steps {
     max-width: 1200px;
   }
-  
+
+
   .process-label {
     color: #0B4C61;
     font-size: 14px;
@@ -29,7 +30,7 @@
   
   .steps-title {
     font-family: Recolata;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 700;
     color: #0F2B35;
   }
@@ -110,11 +111,28 @@
 
   
   /* Curved connector lines */
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     .step-card {
       padding-bottom: 20px;
     }
   
+.three-steps{
+  padding:0px;
+}
+
+.ServiceHeading {
+  text-align: center;
+  padding: 1rem 1rem !important;
+}
+
+.three-steps{
+  padding:0px !important;
+}
+
+.GetStartedMajor{
+  margin-top: 0px !important;
+}
+
     .steps-title {
 
       font-size: 25px !important;

@@ -17,7 +17,7 @@ export default function ThreeSteps() {
       <p className="process-label">Our Working Process</p>
       <h2 className="steps-title">Get Started In Just 3 Steps</h2>
 
-      <div className="row align-items-center mt-5">
+      <div className="row align-items-center GetStartedMajor mt-5">
         <div className="col-md-4 mb-5 mb-md-0">
           <div className="step-card">
             <div className="step-number1">01</div>

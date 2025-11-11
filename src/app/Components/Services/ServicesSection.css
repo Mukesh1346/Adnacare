@@ -101,7 +101,7 @@
 }
 
 /* Small mobile adjustments (375px and below) */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .services-grid {
     gap: 0.75rem;
   }
@@ -119,9 +119,10 @@
 /* Tablet styles (768px and up) */
 @media (min-width: 768px) {
   .ServiceHeading {
-    padding: 3rem 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
   }
-
+  
   .ServiceHeading h2 {
     font-size: 2.5rem;
   }
@@ -144,6 +145,8 @@
     font-size: 1.375rem;
     min-height: auto;
   }
+
+
 
   .service-card p {
     font-size: 1rem;

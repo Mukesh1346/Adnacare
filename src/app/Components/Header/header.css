@@ -1,0 +1,52 @@
+.HeaderMainSec {
+    position: relative;
+    width: 100%;
+    height: 400px; /* adjust height for banner */
+    overflow: hidden;
+    border:5px double gray;
+    border-radius: 20px;
+  }
+  
+  .BannerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures image covers the container */
+  }
+  
+  .overlayHeaderText {
+    position: absolute;
+    top: 70%; /* center vertically */
+    left: 20%; /* center horizontally */
+    transform: translate(-50%, -50%); /* perfect centering */
+    color: white;
+    text-align: center;
+  }
+  
+
+  .text-stroke {
+    font-size: 48px;
+    font-weight: 700;
+    color:transparent;                 /* fill color */
+    -webkit-text-stroke: 1px gray;/* stroke width + color */
+    /* For non-webkit, add fallback via text-shadow below */
+  }
+
+
+  .text-strokePara {
+    font-size: 48px;
+    font-weight: 500;
+    color:transparent;                 /* fill color */
+    -webkit-text-stroke: 1px rgb(111, 108, 108);/* stroke width + color */
+    /* For non-webkit, add fallback via text-shadow below */
+  }    
+
+
+  .overlayHeaderText h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .overlayHeaderText span {
+    font-size: 1rem;
+  }
+  

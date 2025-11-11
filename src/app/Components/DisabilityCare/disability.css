@@ -1,0 +1,101 @@
+/* GENERAL */
+.SoftCare-wrapper {
+    font-family: "Inter", sans-serif;
+    color: #3a3a3a;
+  }
+  
+  /* HERO */
+  .hero-section {
+    padding-top: 60px;
+  }
+  .hero-title {
+    color: #003b95;
+    font-weight: 700;
+    font-size: 2.6rem;
+  }
+  .hero-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #606060;
+  }
+  .hero-img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  }
+  
+  /* BUTTONS */
+  .primary-btn {
+    background: #003b95;
+    color: white;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+  }
+  .primary-btn:hover {
+    background: #002d70;
+  }
+  
+  /* SECTION TITLE */
+  .section-title {
+    font-weight: 700;
+    color: #003b95;
+  }
+  
+  /* SERVICE CARDS */
+  .service-card {
+    background: white;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid #e7efff;
+    font-weight: 600;
+    color: #003b95;
+    transition: 0.3s;
+  }
+  .service-card:hover {
+    border-color: #003b95;
+    box-shadow: 0 10px 26px rgba(0, 59, 149, 0.18);
+    transform: translateY(-4px);
+  }
+  
+  /* INFO SECTION */
+  .info-section {
+    background: #f7faff;
+    padding: 45px;
+    border-radius: 16px;
+  }
+  .info-text-section{
+    padding:0px 40px;
+  }
+  
+  /* SOFT IMAGE CARDS */
+  .soft-card {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+  }
+  .soft-card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* ENQUIRY FORM */
+  .enquiry-section {
+    background: #eef5ff;
+  }
+  .enquiry-card {
+    background: white;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 14px 36px rgba(0,0,0,0.08);
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .hero-title { font-size: 2rem; }
+    .enquiry-card { padding: 24px; }
+  }
+  
