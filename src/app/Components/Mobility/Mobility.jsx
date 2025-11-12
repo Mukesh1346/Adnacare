@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Pic1 from '@/app/images/Mobility1.jpg'
-import './Mobility.css'
+import './mobility.css'
 
 export default function Mobility() {
     return (

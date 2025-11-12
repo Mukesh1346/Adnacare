@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import './navbar.css'
 
-import logo from "@/app/Images/logo1.png"; // replace with your logo
+import logo from "@/app/images/logo1.png"; // replace with your logo
 
 export default function Navbar() {
   return (

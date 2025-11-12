@@ -1,7 +1,7 @@
 import React from "react"
 import './footer.css'
 import Image from "next/image"
-import logo from "@/app/Images/logo1.png";
+import logo from "@/app/images/logo1.png";
 
 export default function Footer() {
     return (
