@@ -25,24 +25,65 @@ export default function Navbar() {
       {/* ---------- MID NAV (MAIN NAV) ---------- */}
       <nav className="mid-navbar navbar navbar-expand-lg bg-white shadow-sm px-4 py-3">
         <div className="container-fluid">
-          {/* LEFT SECTION */}
-          <div className="navbar-left d-none d-lg-flex gap-4">
-            <Link href="/services">Services</Link>
-            <Link href="/support">Support</Link>
-            <Link href="/disability">Disability</Link>
-            <Link href="/domestic">Domestic</Link>
-            <Link href="/mobility">Mobility</Link>
-          </div>
 
-          {/* LOGO */}
-          <Link href="/" className="navbar-brand mx-auto">
+
+ {/* LOGO */}
+ <Link href="/" className="navbar-brand mx-auto">
             <Image src={logo} alt="AdnCare Logo" width={200} height={60} />
           </Link>
 
+
+
+          {/* LEFT SECTION */}
+          <div className="navbar-left d-none d-lg-flex gap-4">
+
+<div className="dropdown">
+  <button
+    className="navbar-dropdown-btn dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Services
+  </button>
+
+  <ul className="navbar-dropdown-menu dropdown-menu">
+    <li><Link className="dropdown-item" href="/services">Services</Link></li>
+    <li><Link className="dropdown-item" href="/support">Support</Link></li>
+    <li><Link className="dropdown-item" href="/disability">Disability</Link></li>
+    <li><Link className="dropdown-item" href="/domestic">Domestic</Link></li>
+    <li><Link className="dropdown-item" href="/mobility">Mobility</Link></li>
+    <li><Link className="dropdown-item" href="/home-modification">HomeModification</Link></li>
+    <li><Link className="dropdown-item" href="/transport-assistant">Transport Assistant</Link></li>
+  </ul>
+</div>
+
+<div className="dropdown">
+  <button
+    className="navbar-dropdown-btn dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+  Allied Health
+  </button>
+
+  <ul className="navbar-dropdown-menu dropdown-menu">
+    <li><Link className="dropdown-item" href="/allied-health">Allied Health</Link></li>
+    <li><Link className="dropdown-item" href="/support">Support</Link></li>
+    <li><Link className="dropdown-item" href="/disability">Disability</Link></li>
+    <li><Link className="dropdown-item" href="/domestic">Domestic</Link></li>
+    <li><Link className="dropdown-item" href="/mobility">Mobility</Link></li>
+    <li><Link className="dropdown-item" href="/home-modification">HomeModification</Link></li>
+  </ul>
+</div>
+
+</div>
           {/* RIGHT SECTION */}
           <div className="navbar-right d-none d-lg-flex gap-4">
             <Link href="/home-modification">HomeModification</Link>
-            <Link href="#">Masks</Link>
+            <Link href="/transport-assistant">Transport Assistant</Link>
+            <Link href="/community-participation">Community Participation</Link>
             <Link href="#">Test Kits</Link>
             <Link href="#">PPE</Link>
             <Link href="#">Industrial</Link>

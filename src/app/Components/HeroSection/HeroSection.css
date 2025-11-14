@@ -8,14 +8,26 @@
     background-position: center;
     display: flex;
     align-items: center;
+    position:relative;
+    margin-bottom: 100px;
 }
 
-.container {
+.RequestCallBack{
+    background-color: #03989e;
+    padding: 40px;
+    position: absolute;
+    width: 30%;
+    bottom: -25%;
+    right: 180px;
+    border-radius: 30px;
+}
+
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     width: 100%;
-}
+} */
 
 .row {
     display: flex;
@@ -115,7 +127,7 @@
 .RightSecImg {
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 550px;
 }
 
 /* ===== MEDIA QUERIES ===== */
@@ -168,10 +180,21 @@
 @media (max-width: 767px) {
     .MainHeroSection {
         padding: 50px 0;
+        margin-bottom: 330px;
     }
 
     .RightSecHero{
         height: 200px;
+    }
+
+    .RequestCallBack {
+        background-color: #03989e;
+        padding: 20px;
+        position: absolute;
+        width: 88%;
+        bottom: -40%;
+        right: 5%;
+        border-radius: 30px;
     }
 
     .row {

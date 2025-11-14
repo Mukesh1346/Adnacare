@@ -133,6 +133,10 @@
   margin-top: 0px !important;
 }
 
+.GetStartedMajor {
+  flex-direction: row;
+}
+
     .steps-title {
 
       font-size: 25px !important;

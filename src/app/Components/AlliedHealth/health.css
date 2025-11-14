@@ -1,0 +1,18 @@
+.AlliedHealthImg{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.ImageSec{
+    width: 100%;
+    text-align: center;
+}
+
+.AlliedHealthMainSec{
+   padding: 100px 0px;
+}
+
+.AlliedHealthList{
+    margin-top: 60px;
+}

@@ -1,0 +1,18 @@
+.PersonalCareImg{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.ImageSec{
+    width: 100%;
+    text-align: center;
+}
+
+.PersonalCareMainSec{
+   padding: 60px 0px;
+}
+
+.PersonalCareList{
+    margin-top: 60px;
+}

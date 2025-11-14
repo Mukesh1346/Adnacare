@@ -129,6 +129,81 @@
     color:#0b3948;
   }
   
+/* dropdown toggle */
+
+/* Dropdown Button */
+.navbar-dropdown-btn {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+
+/* Dropdown Menu Styling */
+.navbar-dropdown-menu {
+  border: none !important;
+  border-radius: 12px;
+  padding: 10px 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  animation: dropdownFade 0.35s ease forwards;
+  transform-origin: top;
+  background: #ffffff;
+}
+
+/* Dropdown Animation */
+@keyframes dropdownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Dropdown Links */
+.navbar-dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: background 0.3s ease, padding-left 0.3s ease;
+  border-radius: 8px;
+  margin: 3px 8px;
+}
+
+/* Hover effect */
+.navbar-dropdown-menu .dropdown-item:hover {
+  background: #f1f5ff;
+  padding-left: 28px;
+}
+
+.dropdown-item{
+  width: 90% !important;
+}
+
+/* Nice ripple underline on hover */
+.navbar-dropdown-btn::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  /* background: #0d6efd; */
+  transition: width 0.3s ease;
+}
+
+/* .navbar-dropdown-btn:hover::after {
+  width: 100%;
+} */
+
+    
+
+
+
+
   /* ===========================
      BOTTOM NAVBAR
   =========================== */
@@ -149,7 +224,7 @@
     }
   
     .navbar-brand img {
-      max-width: 130px;
+      max-width: 200px;
     }
     .contact-info{
       flex-direction: row;
