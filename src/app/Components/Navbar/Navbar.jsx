@@ -120,8 +120,8 @@ export default function Navbar() {
 
     {/* EXTRA LINKS (Right Side) */}
     {/* <Link href="/about-us" className="menu-link">About Us</Link>
+    <Link href="/contact-us" className="menu-link">Contact Us</Link> */}
     <Link href="/contact-us" className="menu-link">Contact Us</Link>
-    <Link href="/blog" className="menu-link">Blog</Link> */}
   </div>
 
   {/* MOBILE TOGGLER */}
