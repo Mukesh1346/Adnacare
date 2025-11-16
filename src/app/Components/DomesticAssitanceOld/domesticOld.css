@@ -1,0 +1,22 @@
+.DomesticOldImg{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+}
+.DomesticOldTitle{
+    color:#0b3948;
+    font-weight: 700;
+}
+
+.DomesticOldImageSec{
+    width: 100%;
+    text-align: center;
+}
+
+.DomesticOldMainSec{
+   padding: 100px 0px;
+}
+
+.DomesticOldTextSec{
+    padding:100px;
+}

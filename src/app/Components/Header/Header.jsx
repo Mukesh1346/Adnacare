@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import pic1 from '@/app/images/heroBanner.jpg'
-import { Span } from 'next/dist/trace'
+
 import './header.css'
 
 

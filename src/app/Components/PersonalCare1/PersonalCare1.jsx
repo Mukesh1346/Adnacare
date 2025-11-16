@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Pic1 from '@/app/images/PersonalCare2.jpg'
 import Pic2 from '@/app/images/PersonalCare1.jpg'
-import './PersonalCare.css'
+import './personalcare.css'
 import FAQ from '../FAQ/FAQ'
 import Testimonial from '../Testimonial/Testimonial'
 

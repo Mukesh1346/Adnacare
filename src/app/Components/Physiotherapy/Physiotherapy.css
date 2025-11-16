@@ -1,0 +1,22 @@
+.PhysiotherapyImg{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.ImageSec{
+    width: 100%;
+    text-align: center;
+}
+
+.PhysioTherapyMainSec{
+   padding: 100px 0px;
+}
+
+.PhysioTherapyList{
+    margin-top: 60px;
+}
+
+.PhysiotherapyRightSec{
+    padding: 0px 40px;
+}

@@ -2,136 +2,98 @@
    GLOBAL NAVBAR STYLES
 =========================== */
 .navbar-container {
-    /* font-family: "Poppins", sans-serif; */
-    width: 100%;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
-  }
-  
-  /* ===========================
-     TOP NAVBAR
-  =========================== */
-  .top-navbar {
-    background: #0b3948;
-    color: white;
-    font-size: 0.9rem;
-    letter-spacing: 0.3px;
-    transition: all 0.3s ease;
-  }
-  
-  .top-navbar .contact-info span {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .top-navbar .contact-info i {
-    color: #ffda44;
-    font-size: 1rem;
-  }
-  
-  .top-navbar .social-icons a {
-    color: white;
-    transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
-  .top-navbar .social-icons a:hover {
-    color: #ffda44;
-    transform: scale(1.2);
-  }
-  
-  /* ===========================
-     MID NAVBAR (MAIN)
-  =========================== */
-  .mid-navbar {
-    position: relative;
-    z-index: 100;
-    background-color: white;
-  }
-  
-  .navbar-left a,
-  .navbar-right a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-left a::after,
-  .navbar-right a::after {
-    content: "";
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    height: 2px;
-    width: 0%;
-    background-color: #f69d39;
-    transition: width 0.3s ease;
-  }
-  
-  .navbar-left a:hover::after,
-  .navbar-right a:hover::after {
-    width: 100%;
-  }
-  
-  .navbar-left a:hover,
-  .navbar-right a:hover {
-    color: #0b3948;
-  }
-  
-  .navbar-brand img {
-    max-width: 200px;
-    transition: transform 0.3s ease;
-  }
-  
-  .navbar-brand img:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Bootstrap toggler custom */
-  .navbar-toggler {
-    border: none;
-    background-color: transparent;
-  }
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
-  /* .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30'
-    xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280,0,0,0.5%29'
-    stroke-width='2' stroke-linecap='round' stroke-miterlimit='10'
-    d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
-  } */
-  
-  /* ===========================
-     MOBILE MENU
-  =========================== */
-  .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    background-color: #f8f9fa;
-    padding: 1rem;
-  }
-  
-  .mobile-menu a {
-    padding: 10px 0;
-    color: #333;
-    text-decoration: none;
-    border-bottom: 1px solid #ddd;
-    transition: color 0.3s ease;
-  }
-  
-  .mobile-menu a:last-child {
-    border-bottom: none;
-  }
-  
-  .mobile-menu a:hover {
-    color:#0b3948;
-  }
-  
-/* dropdown toggle */
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  position: relative;
+  z-index: 2000;
+}
 
-/* Dropdown Button */
+/* ===========================
+   TOP NAVBAR
+=========================== */
+.top-navbar {
+  background: #0b3948;
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-navbar .contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-navbar .contact-info i {
+  color: #ffda44;
+  font-size: 1rem;
+}
+
+.top-navbar .social-icons a {
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.top-navbar .social-icons a:hover {
+  color: #ffda44;
+  transform: scale(1.2);
+}
+
+/* ===========================
+   MID NAVBAR
+=========================== */
+.mid-navbar {
+  position: relative;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+/******** Desktop Left/Right Links **********/
+.navbar-left a,
+.navbar-right a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-left a::after,
+.navbar-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #f69d39;
+  transition: width 0.3s ease;
+}
+
+.navbar-left a:hover::after,
+.navbar-right a:hover::after {
+  width: 100%;
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover {
+  color: #0b3948;
+}
+
+/******** Dropdown Buttons *********/
 .navbar-dropdown-btn {
   background: none;
   border: none;
@@ -139,11 +101,8 @@
   font-size: 16px;
   cursor: pointer;
   padding: 8px 12px;
-  transition: color 0.3s ease;
 }
 
-
-/* Dropdown Menu Styling */
 .navbar-dropdown-menu {
   border: none !important;
   border-radius: 12px;
@@ -151,10 +110,22 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   animation: dropdownFade 0.35s ease forwards;
   transform-origin: top;
-  background: #ffffff;
+  background: white;
 }
 
-/* Dropdown Animation */
+.navbar-dropdown-menu .dropdown-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  margin: 3px 8px;
+  transition: padding-left 0.3s ease, background 0.3s ease;
+}
+
+.navbar-dropdown-menu .dropdown-item:hover {
+  background: #f1f5ff;
+  padding-left: 28px;
+}
+
 @keyframes dropdownFade {
   0% {
     opacity: 0;
@@ -166,88 +137,111 @@
   }
 }
 
-/* Dropdown Links */
-.navbar-dropdown-menu .dropdown-item {
-  padding: 10px 20px;
-  font-size: 15px;
-  transition: background 0.3s ease, padding-left 0.3s ease;
-  border-radius: 8px;
-  margin: 3px 8px;
+/* ===========================
+   MOBILE MENU (Accordion)
+=========================== */
+.mobile-menu {
+  background: #f8f9fa;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  animation: slideDown 0.3s ease;
 }
 
-/* Hover effect */
-.navbar-dropdown-menu .dropdown-item:hover {
-  background: #f1f5ff;
-  padding-left: 28px;
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.dropdown-item{
-  width: 90% !important;
-}
-
-/* Nice ripple underline on hover */
-.navbar-dropdown-btn::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-  /* background: #0d6efd; */
-  transition: width 0.3s ease;
-}
-
-/* .navbar-dropdown-btn:hover::after {
+/******** Accordion ********/
+.accordion-item {
   width: 100%;
-} */
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 
-    
+.accordion-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b3948;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
 
+.accordion-title span {
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.accordion-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  animation: fadeIn 0.3s ease;
+}
 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
-  /* ===========================
-     BOTTOM NAVBAR
-  =========================== */
-  .bottom-navbar {
-    background: #f1f1f1;
-    color: #555;
-    font-size: 0.85rem;
-    border-top: 1px solid #e2e2e2;
+.accordion-content a {
+  padding: 8px 5px;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.accordion-content a:last-child {
+  border-bottom: none;
+}
+
+.accordion-content a:hover {
+  color: #0b3948;
+}
+
+/******** Other Mobile Links ********/
+.mobile-menu > a {
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu > a:hover {
+  color: #0b3948;
+}
+
+.mobile-menu > a:last-child {
+  border-bottom: none;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 992px) {
+  .desktop-nav {
+    display: none !important;
   }
-  
-  /* ===========================
-     RESPONSIVE DESIGN
-  =========================== */
-  @media (max-width: 992px) {
-    .navbar-left,
-    .navbar-right {
-      display: none !important;
-    }
-  
-    .navbar-brand img {
-      max-width: 200px;
-    }
-    .contact-info{
-      flex-direction: row;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .top-navbar {
-      flex-direction: column;
-      gap: 6px;
-      text-align: center;
-    }
-    .contact-info{
-      flex-direction: row;
-    }
-  
-    /* .top-navbar .contact-info {
-      flex-direction: column;
-    } */
-  
-    .bottom-navbar {
-      font-size: 0.75rem;
-    }
-  }
+}
 
-  
+@media (max-width: 576px) {
+  .top-navbar {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+}

@@ -22,18 +22,6 @@
     border-radius: 30px;
 }
 
-/* .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    width: 100%;
-} */
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
 .HeroLeftMainSec {
     flex: 0 0 50%;
@@ -94,12 +82,6 @@
     gap: 30px;
 }
 
-.iconItem {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
 .icon {
     height: 80px;
     width: 80px;
@@ -130,9 +112,7 @@
     max-width: 550px;
 }
 
-/* ===== MEDIA QUERIES ===== */
-
-/* Tablets (768px - 991px) */
+/* Tablets */
 @media (max-width: 991px) {
     .HeroLeftMainSec{
         flex: 0 0 100%;
@@ -176,11 +156,11 @@
     }
 }
 
-/* Mobile Devices (up to 767px) */
+/* Mobile */
 @media (max-width: 767px) {
     .MainHeroSection {
         padding: 50px 0;
-        margin-bottom: 330px;
+        margin-bottom: 250px;
     }
 
     .RightSecHero{
@@ -192,13 +172,35 @@
         padding: 20px;
         position: absolute;
         width: 88%;
-        bottom: -40%;
+        bottom: -30%;
         right: 5%;
         border-radius: 30px;
     }
 
+    /* Override Bootstrap columns for mobile */
+    .RequestCallBack .formRow {
+        text-align: left;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin: 0 -10px !important;
+    }
+
+    .RequestCallBack .col-md-6 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding: 0 10px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .RequestCallBack .col-md-12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 0 10px !important;
+    }
+
     .row {
-        flex-direction: column-reverse;
+        flex-direction: row;
+        text-align: left;
         align-items: center;
         text-align: center;
     }
@@ -206,8 +208,6 @@
     .leftMainSec {
         margin: 0 auto;
         text-align: center;
-    }
-    .leftMainSec {
         padding: 10px 20px;
     }
 
@@ -259,14 +259,8 @@
         height: auto;
         margin-bottom: 30px;
     }
-    .iconBox1{
-        gap:35px;
 
-    }
-
-    
-    .iconBox2{
-        gap:35px;
-
+    .iconBox1, .iconBox2 {
+        gap: 35px;
     }
 }

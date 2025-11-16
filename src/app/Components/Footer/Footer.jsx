@@ -17,11 +17,11 @@ export default function Footer() {
               <p className="footer-contact">📞 +61-8-8967 5983</p>
               <p className="footer-contact">📧 sunnyaid@gmail.com</p>
   
-              <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6>
-              <div className="d-flex flex-wrap">
+              {/* <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6> */}
+              {/* <div className="d-flex flex-wrap">
                 <img src="/google-play.png" className="footer-store mb-2 me-2" alt="Google Play" />
                 <img src="/app-store.png" className="footer-store mb-2" alt="App Store" />
-              </div>
+              </div> */}
             </div>
   
             {/* Column 2 */}

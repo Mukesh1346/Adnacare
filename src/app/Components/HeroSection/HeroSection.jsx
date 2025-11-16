@@ -57,43 +57,46 @@ export default function HeroSection() {
                 </div>
 
             </div>
-            <div className='RequestCallBack'>
-                <div className='container'>
-                    <div>
-                        <h3 className='text-light fw-4'>Request Call Back</h3>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 text-light">
-                            <div>
-                                <label htmlFor="">Name *</label>
-                                <input type="text" className='form-control' placeholder='Name' />
-                            </div>
-                            <div>
-                                <label htmlFor="">Phone *</label>
-                                <input type="text" className='form-control' placeholder='Phone Number' />
-                            </div>    </div>
-                        <div className="col-md-6 text-light">
-                          <div>
-                          <label htmlFor="">Email *</label>
-                            <input type="email" className='form-control' placeholder='Email Address' />
+            <div className="RequestCallBack">
+    <div className="container">
+        <h3 className="text-light fw-4">Request Call Back</h3>
 
-                          </div>
-                          <div>
-                          <label htmlFor="">Service *</label>
-                            <input type="email" className='form-control' placeholder='Services' />
+        <div className="row formRow">
 
-                          </div>
-                        </div>
-                         <div className='pt-3 text-light'>
-                            <label htmlFor="">Message *</label>
-                            <input type="message" className='form-control ' placeholder='Message ......' />
-                         </div>
-                    </div>
-
-
-
-                </div>
+            {/* NAME */}
+            <div className="col-md-6 formGroup text-light">
+                <label>Name *</label>
+                <input type="text" className="form-control" placeholder="Name" />
             </div>
+
+            {/* PHONE */}
+            <div className="col-md-6 formGroup text-light">
+                <label>Phone *</label>
+                <input type="text" className="form-control" placeholder="Phone Number" />
+            </div>
+
+            {/* EMAIL */}
+            <div className="col-md-6 formGroup text-light">
+                <label>Email *</label>
+                <input type="email" className="form-control" placeholder="Email Address" />
+            </div>
+
+            {/* SERVICE */}
+            <div className="col-md-6 formGroup text-light">
+                <label>Service *</label>
+                <input type="text" className="form-control" placeholder="Services" />
+            </div>
+
+            {/* MESSAGE */}
+            <div className="col-md-12 formMessage text-light">
+                <label>Message *</label>
+                <input type="text" className="form-control" placeholder="Message" />
+            </div>
+
+        </div>
+    </div>
+</div>
+
         </div>
     )
 }
