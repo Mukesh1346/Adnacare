@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./ServicesSection.css";
 
 import pic1 from "@/app/images/Service.png";
-import Pic2 from "../../images/service2.png";
+import pic2 from "../../images/Service2.png";
 import pic3 from "@/app/images/Service3.png";
 import pic4 from "@/app/images/Service4.png";
 import pic5 from "@/app/images/Service5.png";
@@ -34,7 +34,7 @@ export default function Services() {
     {
       title: "Daily Living And Life Skills",
       desc: "Support is available to help you navigate everyday life independently.",
-      img: Pic2,
+      img: pic2,
       hoverImg: pic2Hover,
       color: "#123b63",
     },
