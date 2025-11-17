@@ -4,7 +4,7 @@ import Image from "next/image";
 import "./ServicesSection.css";
 
 import pic1 from "@/app/images/Service.png";
-import pic2 from "../../images/Service2.png";
+import pic2 from "@/app/images/Service2.png";
 import pic3 from "@/app/images/Service3.png";
 import pic4 from "@/app/images/Service4.png";
 import pic5 from "@/app/images/Service5.png";
