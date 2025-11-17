@@ -64,7 +64,20 @@
       padding-top: 40px;
       padding-bottom: 40px;
     }
+    .CommunityTitle{
+      text-align: center;
+    }
+    .DetailsMainImg {
+      height: 350px !important;
   }
+  
+    .paratitle{
+      padding:20px;
+    }
+   
+  }
+
+  
   
   @media (max-width: 576px) {
     .community-wrapper h1 {

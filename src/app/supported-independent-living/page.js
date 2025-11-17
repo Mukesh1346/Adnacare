@@ -33,7 +33,8 @@ export default function SupportedIndependent() {
 
     {/* Right: Content */}
     <div className="col-md-7 py-5">
-      <p>
+     <div className='IndependentTextSec'>
+     <p>
         Supported Independent Living (SIL) is an essential NDIS support service that
         provides supervision and assistance with daily living activities, helping
         people with disabilities live as independently as possible.
@@ -52,6 +53,7 @@ export default function SupportedIndependent() {
         environment, and the support needed to achieve greater independence and
         quality of life.
       </p>
+     </div>
     </div>
 
   </div>

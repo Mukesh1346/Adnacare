@@ -2,11 +2,12 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../Components/Header/Header";
   import  Banner from '@/app/images/Short-Medium-Accomodation.jpg'
+  import './shortMedium.css'
 export default function AccommodationInfo() {
   return (
    <>
    <Header Banner={Banner} subtitle={" Short Term Accommodation & Respite Care Provider"}/>
-    <div className="container py-5">
+    <div className="container ShortMediumContainer py-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-10 col-lg-8">
           <h2 className=" mb-4 fw-bold">

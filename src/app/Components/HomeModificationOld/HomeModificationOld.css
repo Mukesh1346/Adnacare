@@ -12,3 +12,22 @@
 .HomeModificationOldSec{
    padding: 100px 0px;
 }
+
+@media (max-width:768px){
+    .HomeModificationOldImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .HomeModificationOldSubTitle{
+     padding:20px;
+    }
+    .HomeModificationOldRightSec{
+        padding:10px;
+    }
+    .HomeModificationOldTitle{
+        color:#0b3948 !important;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+}

@@ -1,14 +1,38 @@
-.MobilityOldImg{
+.MobilityOldImg {
     width: 500px;
     height: 500px;
     border-radius: 20px;
 }
 
-.MobilityOldImageSec{
+.MobilityOldImageSec {
     width: 100%;
     text-align: center;
 }
 
-.MobilityOldMainSec{
-   padding: 100px 0px;
+.MobilityOldMainSec {
+    padding: 100px 0px;
+}
+
+@media (max-width:768px) {
+    .MobilityOldImg {
+        width: -webkit-fill-available;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .MobilityOldMainSec {
+        padding: 20px 0px;
+    }
+
+    .MobilityOldRightSec {
+        padding: 15px;
+    }
+
+    .MobilityOldTitle {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 22px;
+        font-weight: 700;
+        color: #0b3948;
+    }
 }

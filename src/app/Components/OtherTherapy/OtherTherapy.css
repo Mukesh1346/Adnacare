@@ -16,3 +16,34 @@
 .OtherTherapyList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .OtherTherapyMainSec {
+        padding: 20px 10px;
+    }
+
+    .OtherTherapyImg {
+        width: -webkit-fill-available;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .OtherTherapyTitle{
+        text-align: center;
+        padding-top:15px;
+        font-size: 25px;
+        font-weight: 700;
+  color:#0b3948;
+    }
+
+    .OtherTherapyRightSec{
+        padding:0px 20px;
+    }
+    .OtherTherapyList {
+        margin-top: 20px;
+    }
+
+    .OtherTherapyLeftSec{
+        padding:15px;
+    }
+}

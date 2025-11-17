@@ -12,3 +12,21 @@
 .HomeModificationSec{
    padding: 100px 0px;
 }
+
+@media(max-width:768px){
+    .HomeModificationImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .HomeModificationTitle{
+        font-weight: 700;
+        color:#0b3948;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .HomeModificationTextSec{
+        padding:10px;
+    }
+}

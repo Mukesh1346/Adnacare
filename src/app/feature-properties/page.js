@@ -24,7 +24,7 @@ export default function page() {
    <div>
     <Header Banner={Banner} subtitle={"MADESTIEN PARK"}/>
    </div>
-    <section className={`container ${styles.featuredSection}`}>
+    <section className={`container  ${styles.featuredSection}`}>
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2 className={styles.heading}>Featured Properties</h2>
 

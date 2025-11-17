@@ -23,7 +23,7 @@ export default function DisabilitySupportBeautiful() {
               At OSAN Ability, we provide caring, high-quality disability support services tailored to each individual.
               Our team includes experienced Support Workers, Nurses, Occupational Therapists, and dedicated care staff.
             </p>
-            <div className="mt-4">
+            <div className="mt-4 buttonSec">
               <button className="primary-btn">Check Eligibility</button>
               <p className="call-text mt-3">Call <strong>1300 799 941</strong></p>
             </div>
@@ -98,32 +98,46 @@ export default function DisabilitySupportBeautiful() {
       </section>
 
       {/* ENQUIRY FORM */}
-      <section className="enquiry-section py-5">
-        <div className="container enquiry-card">
-          <h3 className="text-center fw-bold mb-4">Have Questions? We're Here to Help</h3>
+      <div className="row justify-content-center">
+        <div className="col-lg-8">
+          <div className="p-4 p-md-5 bg-light rounded shadow-sm">
+            <h3 className="fw-bold mb-3 text-center">Have Questions? Let's Talk</h3>
+            <p className="text-center mb-4 small">
+              Our friendly team is ready to support you.
+            </p>
 
-          <form onSubmit={(e) => e.preventDefault()}>
-            <div className="row g-3">
-              <div className="col-md-6">
-                <input type="text" className="form-control" placeholder="Full Name" required />
-              </div>
-              <div className="col-md-6">
-                <input type="text" className="form-control" placeholder="Phone Number" required />
-              </div>
-              <div className="col-12">
-                <input type="email" className="form-control" placeholder="Email Address" required />
-              </div>
-              <div className="col-12">
-                <textarea className="form-control" rows="4" placeholder="How can we assist you?"></textarea>
-              </div>
-            </div>
+            <form>
+  <div className="row g-3">
+    <div className="col-md-6">
+      <label className="form-label">Full Name</label>
+      <input type="text" className="form-control" placeholder="Enter your name" />
+    </div>
 
-            <div className="text-center">
-              <button className="primary-btn mt-4 px-5 py-2">Submit</button>
-            </div>
-          </form>
+    <div className="col-md-6">
+      <label className="form-label">Phone Number</label>
+      <input type="text" className="form-control" placeholder="Enter your phone number" />
+    </div>
+
+    <div className="col-12">
+      <label className="form-label">Email Address</label>
+      <input type="email" className="form-control" placeholder="Enter your email" />
+    </div>
+
+    <div className="col-12">
+      <label className="form-label">Your Message</label>
+      <textarea rows="4" className="form-control" placeholder="How can we help you?"></textarea>
+    </div>
+
+    <div className="col-12 text-center">
+      <button type="submit" className="btn btn-primary px-4 py-2">Submit Enquiry</button>
+    </div>
+  </div>
+</form>
+
+            <p className="text-center mt-3 fw-semibold">Call 1300 799 941</p>
+          </div>
         </div>
-      </section>
+      </div>
 
     </div>
   );

@@ -16,3 +16,26 @@
 .TransportAssistantList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .TransportAssistantImg {
+        width: inherit;
+        height: 350px;
+        border-radius: 20px;
+    }
+    .TransportAssistantTitle{
+        padding:20px;
+    }
+    .TransportAssistantMainSec {
+        padding: 35px 0px;
+    }
+
+    .TransportAssistantMainSec {
+        padding: 20px 0px;
+    }
+
+    .TransportAssistantList {
+        margin-top: 10px;
+    }
+
+}

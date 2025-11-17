@@ -16,3 +16,47 @@
 .PersonalCareList{
     margin-top: 60px;
 }
+
+
+@media (max-width:768px){
+    .PersonalCareImg {
+        width: 88%;
+        height: 309px;
+        border-radius: 20px;
+    }
+    .PersonalCareMainSec {
+        padding: 12px 0px;
+    }
+    .PersonalCareTextSec {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .PersonalCareSubTitle{
+        padding:20px;
+        text-align: justify;
+       
+    }
+    .PersonalCareTextSec{
+        margin-top:30px;
+        text-align: center;
+    }
+    .PersonalCareTitle{
+    color:#0b3948 !important;
+    font-weight: 700;
+}
+
+  .PersonalCareList{
+    padding: 0px 24px;
+  }
+
+  .PersonalCareList {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.PersonalCareList ul{
+  text-align: left;
+}
+
+}

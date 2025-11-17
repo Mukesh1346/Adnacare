@@ -70,8 +70,18 @@
     .Support-wrapper h1 {
       font-size: 1.8rem;
     }
+     .Support-wrapper{
+      text-align: center;
+     }
     .Support-wrapper h2 {
       font-size: 1.4rem;
     }
+    .SupportMainImg {
+      height: 300px !important;
+  }
+   .SupportParaText{
+    text-align: justify;
+   }
+
   }
   

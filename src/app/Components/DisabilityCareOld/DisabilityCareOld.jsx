@@ -27,7 +27,7 @@ export default function DisabilityCareOld() {
 
               We understand the distinct requirements of seniors with disabilities and have designed our services accordingly. Whether you need assistance with daily activities, personalised care plans, or companionship, OSAN Ability is devoted to enhancing the quality of life for seniors through compassionate and customised disability care.</p>
 
-            <div className="mt-4">
+            <div className="mt-4 CheckSec">
               <button className="primary-btn">Check Eligibility</button>
               <p className="call-text mt-3">Call <strong>1300 799 941</strong></p>
             </div>

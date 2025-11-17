@@ -70,25 +70,25 @@ export default function HeroSection() {
             </div>
 
             {/* PHONE */}
-            <div className="col-md-6 formGroup text-light">
+            <div className="col-md-6 pt-2 formGroup text-light">
                 <label>Phone *</label>
                 <input type="text" className="form-control" placeholder="Phone Number" />
             </div>
 
             {/* EMAIL */}
-            <div className="col-md-6 formGroup text-light">
+            <div className="col-md-6  pt-2 formGroup text-light">
                 <label>Email *</label>
                 <input type="email" className="form-control" placeholder="Email Address" />
             </div>
 
             {/* SERVICE */}
-            <div className="col-md-6 formGroup text-light">
+            <div className="col-md-6  pt-2 formGroup text-light">
                 <label>Service *</label>
                 <input type="text" className="form-control" placeholder="Services" />
             </div>
 
             {/* MESSAGE */}
-            <div className="col-md-12 formMessage text-light">
+            <div className="col-md-12 pt-2 formMessage text-light">
                 <label>Message *</label>
                 <input type="text" className="form-control" placeholder="Message" />
             </div>

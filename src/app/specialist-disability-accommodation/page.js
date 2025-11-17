@@ -34,7 +34,7 @@ export default function SpecialistAccommodation() {
  
                                     </p>
 
-                                    <ul className='SpecialistAccommodationSubTitle'>
+                                    <ul className='SpecialistAccommodationSubTitle '>
 
 
 
@@ -46,7 +46,7 @@ export default function SpecialistAccommodation() {
                                         <li>At OSAN Ability Assist, all our homes are staffed 24/7 and provide access to a range of specialist services such as health, clinical and positive behaviour support.</li>
 
                                     </ul>
-                       <b>OSAN Ability Assist offers a range of Specialised Disability Accommodation (SDA) properties across Sydney, New South Wales regional and metropolitan areas.</b>
+                       <b className='ThemeTitle'>OSAN Ability Assist offers a range of Specialised Disability Accommodation (SDA) properties across Sydney, New South Wales regional and metropolitan areas.</b>
 
 
 

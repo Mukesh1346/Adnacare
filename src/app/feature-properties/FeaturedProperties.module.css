@@ -46,4 +46,14 @@
     font-weight: 600;
     line-height: 1.4;
   }
+
+  @media (max-width:768px){
+    .featuredSection{
+      padding: 20px 30px !important;
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 20px;
+}
+  }
   

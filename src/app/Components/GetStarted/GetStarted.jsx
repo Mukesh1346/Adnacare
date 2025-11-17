@@ -13,7 +13,7 @@ export default function ThreeSteps() {
     <Image src={overlayImg} alt="dotedhorizontalImg" className="overlayImg"/>
   </div>
 
-   <div className="container text-center py-5 three-steps">
+   <div className="container text-center GetStartedContainer py-5 three-steps">
       <p className="process-label">Our Working Process</p>
       <h2 className="steps-title">Get Started In Just 3 Steps</h2>
 

@@ -132,14 +132,48 @@
   font-weight: 600;
   font-size: 16px;
   position: absolute;
-  top: -30px;
+  top: -33px;
   left: 50%;
   transform: translateX(-50%);
 }
 
+
+.step-number2 {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid #0B4C61;
+  color: #0B4C61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  position: absolute;
+  top: -33px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.step-number3 {
+  top: -33px;
+  left: 50%;  
+}
+
+
+
 .ServiceHeading {
   text-align: center;
   padding: 1rem 1rem !important;
+}
+
+.GetStartedContainer{
+  margin-top: 80px !important;
+}
+
+.GetStartedMainSection{
+  padding-top: 10px !important;
 }
 
 .three-steps{

@@ -20,3 +20,22 @@
 .DomesticOldTextSec{
     padding:100px;
 }
+
+@media (max-width:768px){
+    .DomesticOldImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .DomesticOldMainSec {
+        padding: 30px 0px;
+    }
+
+    .DomesticOldTextSec {
+        padding: 30px;
+    }
+    .DomesticOldLeftSec{
+        padding:10px;
+    }
+}

@@ -13,8 +13,8 @@ export default function OtherTherapy() {
       <div className='OtherTherapyMainSec'>
         <div className="container">
 
-          <p>Our professional Occupational Therapists at OSAN Ability Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
-            Our team of Occupational therapists play an important role in enabling people with disability to identify and implement methods that support their participation in occupations. This may include modifying an activity or an environment.</p>
+          {/* <p>Our professional Occupational Therapists at OSAN Ability Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
+            Our team of Occupational therapists play an important role in enabling people with disability to identify and implement methods that support their participation in occupations. This may include modifying an activity or an environment.</p> */}
 
           <div className="row">
             <div className="col-md-6">
@@ -32,7 +32,8 @@ export default function OtherTherapy() {
                   <p className='OtherTherapySubTitle'>
                     OSAN Assist is a registered provider of Exercise under the National Disability Insurance Scheme (NDIS). As with all our services, the ones who seek our services under the NDIS are provided with care that is in line with their goals, to help them to achieve what is important to them. With experience in physical, intellectual, neurological and mental disability, the physiotherapists and Exercise Physiologists are able to assist those with a disability live a life enriched by better movement. We accept participants who are plan-managed and self-managed.
                   </p>
-
+                  <p>Our professional Occupational Therapists at OSAN Ability Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
+                  Our team of Occupational therapists play an important role in enabling people with disability to identify and implement methods that support their participation in occupations. This may include modifying an activity or an environment.</p>
 
 
                 </div>

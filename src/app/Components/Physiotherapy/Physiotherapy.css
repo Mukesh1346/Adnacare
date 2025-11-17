@@ -20,3 +20,31 @@
 .PhysiotherapyRightSec{
     padding: 0px 40px;
 }
+
+.PhysioTherapyHeadingSec{
+    padding-bottom:15px !important;
+    font-size: 20px;
+    color:gray;
+ }
+
+@media (max-width:768px){
+     .PhysioTherapyHeadingSec{
+        padding-bottom:0px !important;
+     }
+
+     .PhysiotherapyImg {
+        width: -webkit-fill-available;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    .PhysiotherapyRightSec {
+        padding: 0px 30px;
+    }
+    .PhysiotherapyTitle {
+        font-weight: 700;
+        color:#0b3948;
+        font-size: 20px;
+        padding-top:20px;
+    }
+}

@@ -52,4 +52,38 @@
   .overlayHeaderText span {
     font-size: 1rem;
   }
+
+  @media (max-width:768px){
+    .HeaderMainSec {
+      position: relative;
+      width: 100%;
+      height: fit-content;
+    }
+
+    .BannerImg {
+      width: 101%;
+      height: 120px;
+  }
+  .overlayHeaderText {
+    padding: 15px;
+    background: #684889;
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+.overlayHeaderText span {
+  font-size: 12px;
+}
+.overlayHeaderText h2{
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+  }
   

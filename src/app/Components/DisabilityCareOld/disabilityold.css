@@ -102,5 +102,27 @@
   @media (max-width: 768px) {
     .hero-title { font-size: 2rem; }
     .enquiry-card { padding: 24px; }
+
+    .hero-section{
+      text-align: justify;
+      padding:20px !important;
+    }
+    .CheckSec{
+      text-align: center;
+    }
+    .hero-title{
+      color:#0b3948 !important;
+    font-weight: 700;
+    font-size: 1.6rem;
+    }
+
+    .disabilityImg {
+     
+      height: 400px;
+  }
+  .info-text-section {
+    /* text-align: justify; */
+    padding: 0px 10px;
+}
   }
   

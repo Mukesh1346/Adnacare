@@ -16,3 +16,26 @@
 .PersonalCareList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .PersonalCareImg {
+        width: 88%;
+        height: 309px;
+        border-radius: 20px;
+    }
+    .PersonalCareMainSec {
+        padding: 20px 0px;
+    }
+.PersonalCareTextSec{
+    padding:10px;
+    text-align: justify;
+}
+
+.PersonalCareTitle{
+    font-weight: 700;
+    color:#0b3948;
+    padding-top: 15px;
+    text-align: center;
+}
+
+}

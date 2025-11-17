@@ -16,3 +16,30 @@
 .SupportedIndependentList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .IndependentTextSec{
+       padding: 0px  10px;
+       text-align: justify;
+    }
+
+    .SupportedIndependentImg {
+        width: -webkit-fill-available;
+        height: 400px;
+        border-radius: 20px;
+    }
+.SupportedIndependentTitle{
+    color:#0b3948 !important;
+        font-weight: 700;
+        font-size: 1.6rem;
+        padding-left:8px;
+        padding-top:10px;
+}
+
+.SupportedIndependentMainSec{
+  padding:15px;
+}
+
+
+}
+

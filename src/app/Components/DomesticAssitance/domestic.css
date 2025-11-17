@@ -12,3 +12,34 @@
 .DomesticMainSec{
    padding: 100px 0px;
 }
+
+@media (max-width:768px){
+    .DomesticImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .DomesticMainSec {
+        padding: 20px 0px;
+    }
+
+    .DomesticTitle{
+        padding:0px 10px;
+        padding-top:20px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+  color:#0b3948;
+    }
+    .DomesticTextSec{
+        text-align: justify;
+    }
+
+  
+
+    .DomesticSubTitle{
+        padding: 15px;
+    }
+
+}

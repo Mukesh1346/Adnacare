@@ -92,7 +92,7 @@ export default function AlliedHealthOld() {
             </div>
 
             <div className='container '>
-                <div className='d-flex justify-content-around'>
+                <div className='d-flex  AlliedHealthlist justify-content-around'>
                     <div>
                         <b>Our Allied Health Services Include:</b>
                         <ul>

@@ -45,7 +45,7 @@ export default function AlliedHealth() {
             </div>
 
             <div className='AlliedHealthMainSec'>
-                <div className="container">
+                <div className="container ">
                     <div className="row">
 
                         <div className="col-md-6">
@@ -94,8 +94,8 @@ export default function AlliedHealth() {
                 </div>
             </div>
 
-           <div  className='container '>
-               <div className='d-flex justify-content-around'>
+           <div  className='container'>
+               <div className='d-flex  AlliedHealthContainer justify-content-around'>
                <div>
                     <b>Our Allied Health Services Include:</b>
                      <ul>

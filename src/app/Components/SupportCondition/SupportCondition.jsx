@@ -59,7 +59,7 @@ export default function SupportCondition() {
 </div>
 
 
-<div className="container">
+<div className="container SupportParaText">
   
 <p>At OSAN Ability, we look to provide you with the highest quality disability support services that are tailored to your individual needs. OSAN Ability has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.</p>
 

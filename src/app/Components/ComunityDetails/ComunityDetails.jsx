@@ -8,12 +8,12 @@ import Pic5 from "@/app/images/ServiceHover4.png"
 
 export default function CommunityParticipation() {
   return (
-    <div className="container community-wrapper py-5">
+    <div className="container community-wrapper ">
       {/* HERO SECTION */}
       <div className="row align-items-center mb-5">
         <div className="col-lg-6 mb-4 mb-lg-0">
-          <h1 className="fw-bold mb-3">Our Community Participation Approach</h1>
-          <p className="lead">
+          <h1 className="fw-bold  ThemeTitle CommunityTitle mb-3">Our Community Participation Approach</h1>
+          <p className="lead paratitle">
             Our experienced support coordinators take the time to understand every
             participants needs, interests, and goals. We tailor community support
             to empower independence, wellbeing, and meaningful engagement.

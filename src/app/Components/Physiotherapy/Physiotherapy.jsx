@@ -11,7 +11,7 @@ export default function Physiotherapy() {
       <div className='PhysiotherapyMainSec '>
         <div className="container">
 
-         <div className='pb-5 text-gray'>
+         <div className=' PhysioTherapyHeadingSec text-gray'>
          <p className='text-center  mt-4'>We are specialists and provide a comprehensive Physiotherapy treatment service to the elderly and NDIS participants. </p>
  
 
@@ -29,7 +29,7 @@ export default function Physiotherapy() {
             <div className="col-md-6">
               <div className="PhysiotherapyRightSec">
                 <div className='PhysiotherapyTextSec'>
-                  <h2 className='PhysiotherapyTitle'>   Our Physiotherapy Service Include :</h2>
+                  <h2 className='PhysiotherapyTitle '>   Our Physiotherapy Service Include :</h2>
 
                   <ul>
                    <li>Massages</li>
@@ -44,7 +44,7 @@ export default function Physiotherapy() {
 
 
 
-<p>If you’d like to book an aged care physiotherapist, contact our representative.</p>
+<p>If you d like to book an aged care physiotherapist, contact our representative.</p>
                <b>Upon your contact, our team will:</b>
                
                <ul>
@@ -59,7 +59,7 @@ export default function Physiotherapy() {
                </ul>
           
 
-          <b>Contact OSAN Ability Assist at 1300 799 941 for more information You can also send us your query at : info@osanability.com.au</b>
+          <b className='ThemeTitle'>Contact OSAN Ability Assist at 1300 799 941 for more information You can also send us your query at : info@osanability.com.au</b>
 
 
                 </div>

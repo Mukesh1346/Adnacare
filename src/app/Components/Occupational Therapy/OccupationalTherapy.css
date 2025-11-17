@@ -16,3 +16,24 @@
 .OccupationalTherapyList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .OccupationalTherapyMainSec {
+        padding: 20px 20px;
+    }
+
+
+    .OccupationalTherapyImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+    .OccupationalTherapyTitle{
+        text-align: center;
+        padding-top:15px;
+        font-size: 25px;
+        font-weight: 700;
+  color:#0b3948;
+    }
+}

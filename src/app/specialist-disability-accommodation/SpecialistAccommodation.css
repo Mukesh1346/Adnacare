@@ -12,3 +12,25 @@
 .SpecialistAccommodationSec{
    padding: 100px 0px;
 }
+
+@media (max-width:768px){
+    .SpecialistAccommodationImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+
+.SpecialistAccommodationRightSec{
+    padding:20px;
+}
+
+.SpecialistAccommodationTitle{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0b3948;
+}
+
+
+}

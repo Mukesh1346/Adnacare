@@ -16,3 +16,28 @@
 .AlliedHealthOldList{
     margin-top: 60px;
 }
+
+@media (max-width:768px){
+    .AlliedHealthOldImg {
+        width: -webkit-fill-available;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .AlliedHealthOldMainSec {
+        padding: 10px 0px;
+    }
+
+    .AlliedHealthOldTitle{
+        color:#0b3948;
+        padding-top:20px ;
+      font-weight: 700;
+    }
+    .AlliedHealthOldTextSec{
+        padding:12px;
+    }
+    .AlliedHealthlist{
+        flex-direction: column;
+        padding:20px;
+    }
+   
+}

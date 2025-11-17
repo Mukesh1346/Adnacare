@@ -16,3 +16,27 @@
 .ComunityOldTextSec2{
     padding:100px 50px;
 }
+
+@media (max-width:768px){
+    .ComunityOldImg {
+        width: -webkit-fill-available;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .ComunityOldMainSec {
+        padding: 20px 0px;
+    }
+
+    .ComunityOldTitle{
+        text-align: center;
+        padding-top:15px;
+        font-size: 22px;
+        font-weight: 700;
+  color:#0b3948;
+    }
+
+    .ComunityOldTextSec2 {
+        padding: 0px 20px;
+    }
+}
