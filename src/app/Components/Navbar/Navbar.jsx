@@ -33,191 +33,177 @@ export default function Navbar() {
       {/* ---------- MID NAV ---------- */}
       <nav className="mid-navbar navbar bg-white shadow-sm px-4 py-3">
 
-<div className="container-fluid d-flex align-items-center justify-content-between">
+        <div className="container-fluid d-flex align-items-center justify-content-between">
 
-  {/* LEFT SIDE — LOGO */}
-  <Link href="/" className="navbar-brand">
-    <Image src={logo} alt="Logo" width={180} height={50} />
-  </Link>
+          {/* LEFT SIDE — LOGO */}
+          <Link href="/" className="navbar-brand">
+            <Image src={logo} alt="Logo" width={180} height={50} />
+          </Link>
 
-  {/* RIGHT SIDE — MENU (Desktop Only) */}
-  <div className="desktop-menu d-none d-lg-flex align-items-center gap-4">
+          {/* DESKTOP MENU */}
+          <div className="desktop-menu d-none d-lg-flex align-items-center gap-4">
 
-    {/* DROPDOWN 1 */}
-    <div className="dropdown">
-      <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
-       ADNA Services
-      </button>
-      <ul className="navbar-dropdown-menu dropdown-menu">
-        <li><Link className="dropdown-item" href="/personal-care2">Personal Care</Link></li>
-        <li><Link className="dropdown-item" href="/community-participation">Community Participation</Link></li>
-        <li><Link className="dropdown-item" href="/transport-assistant">Transport Assistant</Link></li>
-        <li><Link className="dropdown-item" href="/support">Support Coordination</Link></li>
-        <li><Link className="dropdown-item" href="/disability">Disability Care Services</Link></li>
-        <li><Link className="dropdown-item" href="/domestic">Domestic Assistance</Link></li>
-        <li><Link className="dropdown-item" href="/allied-health">Allied Health</Link></li>
-        <li><Link className="dropdown-item" href="/home-modification">Home Modification</Link></li>
-        <li><Link className="dropdown-item" href="/mobility"> Mobility  Equipment </Link></li>
-      </ul>
-    </div>
+            {/* DROPDOWN 1 */}
+            <div className="dropdown">
+              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+                ADNA Services
+              </button>
+              <ul className="navbar-dropdown-menu dropdown-menu">
+                <li><Link className="dropdown-item" href="/personal-care2">Personal Care</Link></li>
+                <li><Link className="dropdown-item" href="/community-participation">Community Participation</Link></li>
+                <li><Link className="dropdown-item" href="/transport-assistant">Transport Assistant</Link></li>
+                <li><Link className="dropdown-item" href="/support">Support Coordination</Link></li>
+                <li><Link className="dropdown-item" href="/disability">Disability Care Services</Link></li>
+                <li><Link className="dropdown-item" href="/domestic">Domestic Assistance</Link></li>
+                <li><Link className="dropdown-item" href="/allied-health">Allied Health</Link></li>
+                <li><Link className="dropdown-item" href="/home-modification">Home Modification</Link></li>
+                <li><Link className="dropdown-item" href="/mobility"> Mobility  Equipment </Link></li>
+              </ul>
+            </div>
 
-    {/* DROPDOWN 2 */}
-    <div className="dropdown">
-      <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
-        Aged Care
-      </button>
-      <ul className="navbar-dropdown-menu dropdown-menu">
-      <li><Link className="dropdown-item" href="/personal-care1">Personal Care</Link></li>
-        <li><Link className="dropdown-item" href="/oldcommunity-participation">Community Participation</Link></li>
+            {/* DROPDOWN 2 */}
+            <div className="dropdown">
+              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+                Aged Care
+              </button>
+              <ul className="navbar-dropdown-menu dropdown-menu">
+                <li><Link className="dropdown-item" href="/personal-care1">Personal Care</Link></li>
+                <li><Link className="dropdown-item" href="/oldcommunity-participation">Community Participation</Link></li>
+                <li><Link className="dropdown-item" href="/transport-assistant-old">Transport Assistant</Link></li>
+                <li><Link className="dropdown-item" href="/disabilityold">Disability Care Services</Link></li>
+                <li><Link className="dropdown-item" href="/domestic-old">Domestic Assistance</Link></li>
+                <li><Link className="dropdown-item" href="/allied-health-old">Allied Health</Link></li>
+                <li><Link className="dropdown-item" href="/home-modification-old">Home Modification</Link></li>
+                <li><Link className="dropdown-item" href="/mobility-old">Mobility Equipment</Link></li>
+              </ul>
+            </div>
 
-        <li><Link className="dropdown-item" href="/transport-assistant-old">Transport Assistant</Link></li>
-        <li><Link className="dropdown-item" href="/disabilityold">Disability Care Services</Link></li>
-        {/* <li><Link className="dropdown-item" href="/support">Support Coordination</Link></li> */}
-        <li><Link className="dropdown-item" href="/domestic-old">Domestic Assistance</Link></li>
-        <li><Link className="dropdown-item" href="/allied-health-old">Allied Health</Link></li>
-        <li><Link className="dropdown-item" href="/home-modification-old">Home Modification</Link></li>
-        <li><Link className="dropdown-item" href="/mobility-old"> Mobility  Equipment </Link></li>
-      </ul>
-    </div>
+            {/* DROPDOWN 3 */}
+            <div className="dropdown">
+              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+                Disability Accommodation
+              </button>
+              <ul className="navbar-dropdown-menu dropdown-menu">
+                <li><Link className="dropdown-item" href="/short-medium-accomodation">Short Medium Term Accommodation</Link></li>
+                <li><Link className="dropdown-item" href="/specialist-disability-accommodation">Specialist Disability Accommodation</Link></li>
+                <li><Link className="dropdown-item" href="/supported-independent-living"> Supported Independent Living</Link></li>
+                <li><Link className="dropdown-item" href="/feature-properties">Featured Properties</Link></li>
+              </ul>
+            </div>
 
+            {/* DROPDOWN 4 */}
+            <div className="dropdown">
+              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+                Allied Health
+              </button>
+              <ul className="navbar-dropdown-menu dropdown-menu">
+                <li><Link className="dropdown-item" href="/occupational-therapy">Occupational Therapy</Link></li>
+                <li><Link className="dropdown-item" href="/physiotherapy">Physiotherapy</Link></li>
+                <li><Link className="dropdown-item" href="/other-therapy">Other Therapies</Link></li>
+              </ul>
+            </div>
 
+            <Link href="/contact-us" className="menu-link text-decoration-none Links">Contact Us</Link>
+          </div>
 
-    <div className="dropdown">
-      <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
-      Disability Accommodation
-      </button>
-      <ul className="navbar-dropdown-menu dropdown-menu">
-      <li><Link className="dropdown-item" href="/short-medium-accomodation">Short Medium Term Accomodation</Link></li>
-      <li><Link className="dropdown-item" href="/specialist-disability-accommodation">Specialist Disability Accommodation</Link></li>
-      <li><Link className="dropdown-item" href="/supported-independent-living"> Supported Independent Living</Link></li>
-      <li><Link className="dropdown-item" href="/feature-properties">Featured Properties</Link></li>
+          {/* MOBILE TOGGLER */}
+          <button className="navbar-toggler d-lg-none" onClick={() => setOpenMenu(!openMenu)}>
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-      
-                    
-     
- 
-      </ul>
-    </div>
+        </div>
+      </nav>
 
+      {/* ---------- MOBILE MENU (Accordion Style) ---------- */}
+      {openMenu && (
+        <div className="mobile-menu">
 
+          {/* Accordion – ADNA Services */}
+          <div className="accordion-item">
+            <div className="accordion-title" onClick={() => toggleAccordion(1)}>
+              ADNA Services
+              <span>{accordion === 1 ? "−" : "+"}</span>
+            </div>
 
-    <div className="dropdown">
-      <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
-      Allied Health
-      </button>
-      <ul className="navbar-dropdown-menu dropdown-menu">
-      <li><Link className="dropdown-item" href="/occupational-therapy">Occupational Therapy</Link></li>
-      <li><Link className="dropdown-item" href="/physiotherapy">Physiotherapy</Link></li>
-      <li><Link className="dropdown-item" href="/other-therapy"> Supported Independent Living</Link></li>
-    
+            {accordion === 1 && (
+              <div className="accordion-content">
+                <Link href="/personal-care2" onClick={() => setOpenMenu(false)}>Personal Care</Link>
+                <Link href="/community-participation" onClick={() => setOpenMenu(false)}>Community Participation</Link>
+                <Link href="/transport-assistant" onClick={() => setOpenMenu(false)}>Transport Assistant</Link>
+                <Link href="/support" onClick={() => setOpenMenu(false)}>Support Coordination</Link>
+                <Link href="/disability" onClick={() => setOpenMenu(false)}>Disability Care Services</Link>
+                <Link href="/domestic" onClick={() => setOpenMenu(false)}>Domestic Assistance</Link>
+                <Link href="/allied-health" onClick={() => setOpenMenu(false)}>Allied Health</Link>
+                <Link href="/home-modification" onClick={() => setOpenMenu(false)}>Home Modification</Link>
+                <Link href="/mobility" onClick={() => setOpenMenu(false)}>Mobility Equipment</Link>
+              </div>
+            )}
+          </div>
 
-      
-                    
-     
- 
-      </ul>
-    </div>
+          {/* Accordion – Aged Care */}
+          <div className="accordion-item">
+            <div className="accordion-title" onClick={() => toggleAccordion(2)}>
+              Aged Care
+              <span>{accordion === 2 ? "−" : "+"}</span>
+            </div>
 
-    {/* EXTRA LINKS (Right Side) */}
-    {/* <Link href="/about-us" className="menu-link">About Us</Link>
-    <Link href="/contact-us" className="menu-link">Contact Us</Link> */}
-    <Link href="/contact-us" className="menu-link text-decoration-none Links">Contact Us</Link>
-  </div>
+            {accordion === 2 && (
+              <div className="accordion-content">
+                <Link href="/personal-care1" onClick={() => setOpenMenu(false)}>Personal Care</Link>
+                <Link href="/oldcommunity-participation" onClick={() => setOpenMenu(false)}>Community Participation</Link>
+                <Link href="/transport-assistant-old" onClick={() => setOpenMenu(false)}>Transport Assistant</Link>
+                <Link href="/disabilityold" onClick={() => setOpenMenu(false)}>Disability Care Services</Link>
+                <Link href="/domestic-old" onClick={() => setOpenMenu(false)}>Domestic Assistance</Link>
+                <Link href="/allied-health-old" onClick={() => setOpenMenu(false)}>Allied Health</Link>
+                <Link href="/home-modification-old" onClick={() => setOpenMenu(false)}>Home Modification</Link>
+                <Link href="/mobility-old" onClick={() => setOpenMenu(false)}>Mobility Equipment</Link>
+              </div>
+            )}
+          </div>
 
-  {/* MOBILE TOGGLER */}
-  <button className="navbar-toggler d-lg-none" onClick={() => setOpenMenu(!openMenu)}>
-    <span className="navbar-toggler-icon"></span>
-  </button>
+          {/* Accordion – Disability Accommodation */}
+          <div className="accordion-item">
+            <div className="accordion-title" onClick={() => toggleAccordion(3)}>
+              Disability Accommodation
+              <span>{accordion === 3 ? "−" : "+"}</span>
+            </div>
 
-</div>
-</nav>
+            {accordion === 3 && (
+              <div className="accordion-content">
+                <Link href="/short-medium-accomodation" onClick={() => setOpenMenu(false)}>Short Medium Term Accommodation</Link>
+                <Link href="/specialist-disability-accommodation" onClick={() => setOpenMenu(false)}>Specialist Disability Accommodation</Link>
+                <Link href="/supported-independent-living" onClick={() => setOpenMenu(false)}>Supported Independent Living</Link>
+                <Link href="/feature-properties" onClick={() => setOpenMenu(false)}>Featured Properties</Link>
+              </div>
+            )}
+          </div>
 
-    {/* ---------- MOBILE MENU (Accordion Style) ---------- */}
-{openMenu && (
-  <div className="mobile-menu">
+          {/* Accordion – Allied Health */}
+          <div className="accordion-item">
+            <div className="accordion-title" onClick={() => toggleAccordion(4)}>
+              Allied Health
+              <span>{accordion === 4 ? "−" : "+"}</span>
+            </div>
 
-    {/* Accordion – ADNA Services */}
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => toggleAccordion(1)}>
-        ADNA Services
-        <span>{accordion === 1 ? "−" : "+"}</span>
-      </div>
+            {accordion === 4 && (
+              <div className="accordion-content">
+                <Link href="/occupational-therapy" onClick={() => setOpenMenu(false)}>Occupational Therapy</Link>
+                <Link href="/physiotherapy" onClick={() => setOpenMenu(false)}>Physiotherapy</Link>
+                <Link href="/other-therapy" onClick={() => setOpenMenu(false)}>Other Therapies</Link>
+              </div>
+            )}
+          </div>
 
-      {accordion === 1 && (
-        <div className="accordion-content">
-          <Link href="/personal-care2">Personal Care</Link>
-          <Link href="/community-participation">Community Participation</Link>
-          <Link href="/transport-assistant">Transport Assistant</Link>
-          <Link href="/support">Support Coordination</Link>
-          <Link href="/disability">Disability Care Services</Link>
-          <Link href="/domestic">Domestic Assistance</Link>
-          <Link href="/allied-health">Allied Health</Link>
-          <Link href="/home-modification">Home Modification</Link>
-          <Link href="/mobility">Mobility Equipment</Link>
+          {/* Simple Link */}
+          <div className="accordion-item">
+            <Link href="/about-us" className="accordion-title" onClick={() => setOpenMenu(false)}>
+              About Us
+            </Link>
+          </div>
+
         </div>
       )}
-    </div>
 
-    {/* Accordion – Aged Care */}
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => toggleAccordion(2)}>
-        Aged Care
-        <span>{accordion === 2 ? "−" : "+"}</span>
-      </div>
-
-      {accordion === 2 && (
-        <div className="accordion-content">
-          <Link href="/personal-care1">Personal Care</Link>
-          <Link href="/oldcommunity-participation">Community Participation</Link>
-          <Link href="/transport-assistant-old">Transport Assistant</Link>
-          <Link href="/disabilityold">Disability Care Services</Link>
-          <Link href="/domestic-old">Domestic Assistance</Link>
-          <Link href="/allied-health-old">Allied Health</Link>
-          <Link href="/home-modification-old">Home Modification</Link>
-          <Link href="/mobility-old">Mobility Equipment</Link>
-        </div>
-      )}
-    </div>
-
-    {/* Accordion – Disability Accommodation */}
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => toggleAccordion(3)}>
-        Disability Accommodation
-        <span>{accordion === 3 ? "−" : "+"}</span>
-      </div>
-
-      {accordion === 3 && (
-        <div className="accordion-content">
-          <Link href="/short-medium-accomodation">Short Medium Term Accommodation</Link>
-          <Link href="/specialist-disability-accommodation">Specialist Disability Accommodation</Link>
-          <Link href="/supported-independent-living">Supported Independent Living</Link>
-          <Link href="/feature-properties">Featured Properties</Link>
-        </div>
-      )}
-    </div>
-
-    {/* Accordion – Allied Health */}
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => toggleAccordion(4)}>
-        Allied Health
-        <span>{accordion === 4 ? "−" : "+"}</span>
-      </div>
-
-      {accordion === 4 && (
-        <div className="accordion-content">
-          <Link href="/occupational-therapy">Occupational Therapy</Link>
-          <Link href="/physiotherapy">Physiotherapy</Link>
-          <Link href="/other-therapy">Other Therapies</Link>
-        </div>
-      )}
-    </div>
-    <div className="accordion-item">
-      <Link href="/about-us" className="accordion-title" >About Us</Link>
-    </div>
-
-  </div>
-
-      )}
     </header>
   );
 }
