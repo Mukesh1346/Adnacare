@@ -103,7 +103,7 @@ export default function Navbar() {
               </ul>
             </div>
 
-            <Link href="/contact-us" className="menu-link text-decoration-none Links">Contact Us</Link>
+            <a href="/contact-us" className="menu-link  Links" style={{textDecoration:"none"}}>Contact Us</a>
           </div>
 
           {/* MOBILE TOGGLER */}
