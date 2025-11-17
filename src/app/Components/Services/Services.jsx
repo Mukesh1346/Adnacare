@@ -11,6 +11,7 @@ import pic5 from "@/app/images/Service5.png";
 import pic6 from "@/app/images/Service6.png";
 
 
+
 // hover versions (you can use different or darker images)
 import pic1Hover from "@/app/images/ServiceHover1.png";
 import pic2Hover from "@/app/images/ServiceHover2.png";
