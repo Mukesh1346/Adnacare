@@ -95,12 +95,16 @@
   
   /* RESPONSIVE */
   @media (max-width: 768px) {
-    .hero-title { font-size: 1.8rem;
+    .hero-title { font-size: 1.5rem;
       text-align: center;
      }
     .enquiry-card { padding: 24px; }
       .hero-img{
         height: auto;
+      }
+
+      .hero-section{
+        padding-top: 25px !important;
       }
     .hero-text{
       padding: 0px 20px;
@@ -114,5 +118,8 @@
       font-weight: 700;
     }
     
+    .info-text-section {
+      padding: 0px 20px;
+  }
   }
   

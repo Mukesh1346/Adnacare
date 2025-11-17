@@ -29,8 +29,8 @@
   .text-stroke {
     font-size: 48px;
     font-weight: 700;
-    color:transparent;                 /* fill color */
-    -webkit-text-stroke: 1px white;/* stroke width + color */
+    /* color:transparent;                
+    -webkit-text-stroke: 1px white; */
     /* For non-webkit, add fallback via text-shadow below */
   }
 
@@ -38,8 +38,8 @@
   .text-strokePara {
     font-size: 48px;
     font-weight: 500;
-    color:transparent;                 /* fill color */
-    -webkit-text-stroke: 1px white;/* stroke width + color */
+    /* color:transparent;                 
+    -webkit-text-stroke: 1px white; */
     /* For non-webkit, add fallback via text-shadow below */
   }    
 

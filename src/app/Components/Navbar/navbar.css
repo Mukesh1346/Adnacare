@@ -248,4 +248,18 @@
     gap: 5px;
     text-align: center;
   }
+  .MiddleNavbar{
+    padding:20px;
+  }
+
+  .mid-navbar {
+    padding-left:0px !important;
+  }
+}
+
+
+@media (max-width:768px){
+  .navbar {
+    padding:0px !important;
+  }
 }

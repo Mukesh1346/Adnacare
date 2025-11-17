@@ -31,7 +31,7 @@ export default function Navbar() {
       </div>
 
       {/* ---------- MID NAV ---------- */}
-      <nav className="mid-navbar navbar bg-white shadow-sm px-4 py-3">
+      <nav className="mid-navbar navbar bg-white shadow-sm MiddleNavbar">
 
         <div className="container-fluid d-flex align-items-center justify-content-between">
 
