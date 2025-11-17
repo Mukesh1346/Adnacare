@@ -1,10 +1,11 @@
-"use client";
+  "use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import { useState } from "react";
 import logo from "@/app/images/logo1.png";
 import "./navbar.css";
+import { Black_And_White_Picture } from "next/font/google";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -45,8 +46,9 @@ export default function Navbar() {
 
             {/* DROPDOWN 1 */}
             <div className="dropdown">
-              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+              <button style={{color:"#000"}} className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
                 ADNA Services
+
               </button>
               <ul className="navbar-dropdown-menu dropdown-menu">
                 <li><Link className="dropdown-item" href="/personal-care2">Personal Care</Link></li>
@@ -63,7 +65,7 @@ export default function Navbar() {
 
             {/* DROPDOWN 2 */}
             <div className="dropdown">
-              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+              <button style={{color:"#000"}} className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
                 Aged Care
               </button>
               <ul className="navbar-dropdown-menu dropdown-menu">
@@ -80,7 +82,7 @@ export default function Navbar() {
 
             {/* DROPDOWN 3 */}
             <div className="dropdown">
-              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+              <button style={{color:"#000"}} className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
                 Disability Accommodation
               </button>
               <ul className="navbar-dropdown-menu dropdown-menu">
@@ -93,7 +95,7 @@ export default function Navbar() {
 
             {/* DROPDOWN 4 */}
             <div className="dropdown">
-              <button className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
+              <button style={{color:"#000"}} className="navbar-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown">
                 Allied Health
               </button>
               <ul className="navbar-dropdown-menu dropdown-menu">
@@ -196,8 +198,8 @@ export default function Navbar() {
 
           {/* Simple Link */}
           <div className="accordion-item">
-            <Link href="/about-us" className="accordion-title" onClick={() => setOpenMenu(false)}>
-              About Us
+            <Link href="/contact-us" className="accordion-title" onClick={() => setOpenMenu(false)}>
+              Contact Us
             </Link>
           </div>
 
