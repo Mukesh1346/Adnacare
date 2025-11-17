@@ -121,7 +121,7 @@ export default function Navbar() {
     {/* EXTRA LINKS (Right Side) */}
     {/* <Link href="/about-us" className="menu-link">About Us</Link>
     <Link href="/contact-us" className="menu-link">Contact Us</Link> */}
-    <Link href="/contact-us" className="menu-link">Contact Us</Link>
+    <Link href="/contact-us" className="menu-link text-decoration-none Links">Contact Us</Link>
   </div>
 
   {/* MOBILE TOGGLER */}
@@ -210,6 +210,9 @@ export default function Navbar() {
           <Link href="/other-therapy">Other Therapies</Link>
         </div>
       )}
+    </div>
+    <div className="accordion-item">
+      <Link href="/about-us" className="accordion-title" >About Us</Link>
     </div>
 
   </div>

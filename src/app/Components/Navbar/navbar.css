@@ -92,7 +92,11 @@
 .navbar-right a:hover {
   color: #0b3948;
 }
-
+.Links{
+  color:black;
+  font-weight: 500;
+  text-decoration: none;
+}
 /******** Dropdown Buttons *********/
 .navbar-dropdown-btn {
   background: none;
