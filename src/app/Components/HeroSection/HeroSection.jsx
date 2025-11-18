@@ -184,7 +184,7 @@ export default function HeroSection() {
 
         {/* SUBMIT BUTTON */}
         <div className="col-md-12 text-center">
-          <button type="submit" className="SubmitButton" >
+          <button type="submit" className="SubmitButton bg-warning " >
             Submit
           </button>
         </div>
