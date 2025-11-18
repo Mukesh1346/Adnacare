@@ -42,7 +42,7 @@ export default function OccupationalTherapy() {
                     <li>Modification of environments (e.g. home, work-places and community places) and adaptation of processes, including the application of ergonomic principles.</li>
                     <li>Rehabilitation assistance and community mobility.</li>
                     <li>
-                      Contact OSAN Ability Assist at 1300 799 941 for more information on our Allied Health Services.</li>
+                      Contact Adna Care Assist at 1300 799 941 for more information on our Allied Health Services.</li>
                   </ul>
 
 

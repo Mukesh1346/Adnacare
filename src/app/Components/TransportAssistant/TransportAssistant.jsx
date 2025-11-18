@@ -24,7 +24,7 @@ export default function TransportAssistant() {
                                 <div className='TransportAssistantTextSec'>
                                     <h2 className='TransportAssistantTitle ThemeTitle'>Empowering Access: NDIS Transportation Assistance</h2>
 
-                                    <p className='TransportAssistantSubTitle'>As a registered NDIS Service Provider, OSAN Ability Assist provides most convenient transportation & travel assistance to NDIS participants. According to NDIS, you will be able to access funding through the NDIS if you cannot use public transport without substantial difficulty due to their disability. Funding takes into account any relevant taxi subsidy scheme, and it does not cover transport assistance for carers to transport their family member with a disability for everyday commitments. Contact us to know more about this.
+                                    <p className='TransportAssistantSubTitle'>As a registered NDIS Service Provider, Adna Care Assist provides most convenient transportation & travel assistance to NDIS participants. According to NDIS, you will be able to access funding through the NDIS if you cannot use public transport without substantial difficulty due to their disability. Funding takes into account any relevant taxi subsidy scheme, and it does not cover transport assistance for carers to transport their family member with a disability for everyday commitments. Contact us to know more about this.
                                 
                                     </p>
                                     <p className='TransportAssistantSubTitle'>
@@ -49,7 +49,7 @@ export default function TransportAssistant() {
                                     <h2 className='TransportAssistantTitle ThemeTitle'>We can help you with disability transportation:</h2>
 
                                     {/* <p className='TransportAssistantPara'>
-                                        At OSAN Ability, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
+                                        At Adna Care, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
 
                                         Simply put, we get into the core of the health problems and find the root cause and then treat accordingly so that the client gets maximum benefits in quick time.
 

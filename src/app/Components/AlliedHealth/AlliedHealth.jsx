@@ -22,9 +22,9 @@ export default function AlliedHealth() {
                         <div className="col-md-6">
                             <div className="AlliedHealthRightSec">
                                 <div className='AlliedHealthTextSec'>
-                                    <h2 className='AlliedHealthTitle'>Comprehensive Allied Health Services at OSAN Ability</h2>
+                                    <h2 className='AlliedHealthTitle'>Comprehensive Allied Health Services at Adna Care</h2>
 
-                                    <p className='AlliedHealthSubTitle'>At OSAN Ability, our qualified Allied Health professionals work collaboratively to understand your specific needs and provide tailored support that promotes recovery, strength, and overall wellbeing. We offer a wide range of evidence-based treatment methods designed to help restore, improve, and maintain optimal physical function and health.
+                                    <p className='AlliedHealthSubTitle'>At Adna Care, our qualified Allied Health professionals work collaboratively to understand your specific needs and provide tailored support that promotes recovery, strength, and overall wellbeing. We offer a wide range of evidence-based treatment methods designed to help restore, improve, and maintain optimal physical function and health.
                                     </p>
                                     <p className='AlliedHealthSubTitle'>
 
@@ -36,7 +36,7 @@ export default function AlliedHealth() {
                                         Our experienced physiotherapists and exercise physiologists can visit you at home, in your gym, or at a pool facility—wherever you feel most comfortable. If your condition or injury is work-related, our health professionals can also attend your workplace to provide thorough assessment and treatment.
                                     </p>
 
-                                    <p>With OSAN Ability, you receive personalised, professional care that supports your recovery and helps you achieve long-term health goals.</p>
+                                    <p>With Adna Care, you receive personalised, professional care that supports your recovery and helps you achieve long-term health goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export default function AlliedHealth() {
                                     <h2 className='AlliedHealthTitle'>Our Allied Health Assistance Goals:</h2>
 
                                     <p className='AlliedHealthPara'>
-                                        At OSAN Ability, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
+                                        At Adna Care, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
 
                                         Simply put, we get into the core of the health problems and find the root cause and then treat accordingly so that the client gets maximum benefits in quick time.
 
@@ -62,7 +62,7 @@ export default function AlliedHealth() {
                                     <div className='AlliedHealthList'>
                                         <b className='AlliedHealthSubTitle  mt-5'>
 
-                                            Why Choose OSAN Ability for Allied Health Assistance Service
+                                            Why Choose Adna Care for Allied Health Assistance Service
 
                                         </b>
                                         <ul>

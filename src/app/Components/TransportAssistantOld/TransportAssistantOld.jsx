@@ -33,7 +33,7 @@ export default function TransportAssistantOld() {
                                     </p>
                                     <h2 className='TransportAssistantOldTitle'>We can help you with disability transportation:</h2>
                                     <p className='TransportAssistantOldPara'>
-                                    At OSAN Ability, we offer a safe, comfortable, and reliable transportation solution for individuals with disabilities. Our goal is to ensure that all members of our community can travel with ease and dignity. Here s what you can expect from our services:
+                                    At Adna Care, we offer a safe, comfortable, and reliable transportation solution for individuals with disabilities. Our goal is to ensure that all members of our community can travel with ease and dignity. Here s what you can expect from our services:
 
                                     </p>
                                 </div>
@@ -65,7 +65,7 @@ export default function TransportAssistantOld() {
                                            <li>Flexible Scheduling: Convenient pickup times for appointments, social outings, and other needs.</li>
                                            <li>Door-to-Door Service: We pick you up and drop you off at your desired location.</li>
                                            <li>Personalised Support: We offer assistance tailored to your specific needs to ensure a comfortable and stress-free journey.</li>
-                                           <li>Choose OSAN Ability for your transportation needs  bec</li>
+                                           <li>Choose Adna Care for your transportation needs  bec</li>
                                         </ul>
                                     </div>
 

@@ -6,9 +6,9 @@ import Banner from "@/app/images/contact-us.jpg"
 export default function Page() {
   return (
     <>
-    <div>
+    
         <Header Banner={Banner}  subtitle={"Contact Us"}/>
-    </div>
+    
 
     <div className="container my-5">
       <div className="row">
@@ -17,7 +17,7 @@ export default function Page() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions, concerns, or feedback, we are here for you. 
-            Contact NDIS and Aged Care Provider OSAN Ability Sydney via email, phone, or post.
+            Contact NDIS and Aged Care Provider Adna Care Sydney via email, phone, or post.
           </p>
           <p>
             <strong>Email:</strong> info@osanability.com <br/>
@@ -30,7 +30,7 @@ export default function Page() {
         {/* Right side - Map */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <iframe
-            title="OSAN Ability Sydney Location"
+            title="Adna Ability  Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.123456789012!2d151.209296015!3d-33.86881998065921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b7e1b6a1b123%3A0x123456789abcdef!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin"
             width="100%"
             height="400"

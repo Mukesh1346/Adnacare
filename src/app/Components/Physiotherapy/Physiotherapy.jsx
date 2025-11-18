@@ -59,7 +59,7 @@ export default function Physiotherapy() {
                </ul>
           
 
-          <b className='ThemeTitle'>Contact OSAN Ability Assist at 1300 799 941 for more information You can also send us your query at : info@osanability.com.au</b>
+          <b className='ThemeTitle'>Contact Adna Care Assist at 1300 799 941 for more information You can also send us your query at : info@osanability.com.au</b>
 
 
                 </div>

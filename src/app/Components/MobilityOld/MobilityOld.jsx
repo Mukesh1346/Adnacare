@@ -21,7 +21,7 @@ export default function MobilityOld() {
                                 <div className='MobilityOldTextSec'>
                                     <h2 className='MobilityOldTitle mb-4'>Our range includes
                                         Scooters</h2>
-                                        <b className='pb-4'>OSAN Ability Assist supplies mobility equipment to individuals, aged care facilities, homes and hospitals, offering a broad range of solutions to ensure the best outcomes for those in need.</b>
+                                        <b className='pb-4'>Adna Care Assist supplies mobility equipment to individuals, aged care facilities, homes and hospitals, offering a broad range of solutions to ensure the best outcomes for those in need.</b>
                                     <ul>
                                         <li>Continence Management Product</li>
                                         <li>Wheelchairs – Standard, Power, Active, Tilt-n-Space, Paediatric, Sports</li>

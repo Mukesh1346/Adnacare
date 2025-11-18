@@ -13,7 +13,7 @@ export default function OtherTherapy() {
       <div className='OtherTherapyMainSec'>
         <div className="container">
 
-          {/* <p>Our professional Occupational Therapists at OSAN Ability Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
+          {/* <p>Our professional Occupational Therapists at Adna Care Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
             Our team of Occupational therapists play an important role in enabling people with disability to identify and implement methods that support their participation in occupations. This may include modifying an activity or an environment.</p> */}
 
           <div className="row">
@@ -32,7 +32,7 @@ export default function OtherTherapy() {
                   <p className='OtherTherapySubTitle'>
                     OSAN Assist is a registered provider of Exercise under the National Disability Insurance Scheme (NDIS). As with all our services, the ones who seek our services under the NDIS are provided with care that is in line with their goals, to help them to achieve what is important to them. With experience in physical, intellectual, neurological and mental disability, the physiotherapists and Exercise Physiologists are able to assist those with a disability live a life enriched by better movement. We accept participants who are plan-managed and self-managed.
                   </p>
-                  <p>Our professional Occupational Therapists at OSAN Ability Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
+                  <p>Our professional Occupational Therapists at Adna Care Assist have always focused on promoting health and wellbeing by encouraging the therapy-seekers engaging in the self-care activities. These activities include day-to-day activities such as dressing, showring, cooking; productive activities like work, volunteering and caring for others; and social activities such as being part of a community group, engaging in a hobby or being part of a friendship group.
                   Our team of Occupational therapists play an important role in enabling people with disability to identify and implement methods that support their participation in occupations. This may include modifying an activity or an environment.</p>
 
 
@@ -55,7 +55,7 @@ export default function OtherTherapy() {
                   <p className='OtherTherapyPara'>
 
                     Speech Therapy
-                    Speech and language therapy is a process that enables people to communicate to the best of their ability. Speech therapists are often found working in hospitals, schools, community health centres, private practice and clinics. With the recent exertion of the NDIS (National Disability Insurance Scheme) across Australia, there has been a sharp rise in new services being established for various allied health streams, including speech therapy. The NDIS funds supports that are directly connected to your goals so if you want to obtain funding for speech therapy, it is important to include related goals in your NDIS Plan. At OSAN Ability Assist, you can find out more about this service.
+                    Speech and language therapy is a process that enables people to communicate to the best of their ability. Speech therapists are often found working in hospitals, schools, community health centres, private practice and clinics. With the recent exertion of the NDIS (National Disability Insurance Scheme) across Australia, there has been a sharp rise in new services being established for various allied health streams, including speech therapy. The NDIS funds supports that are directly connected to your goals so if you want to obtain funding for speech therapy, it is important to include related goals in your NDIS Plan. At Adna Care Assist, you can find out more about this service.
 
                   </p>
 
@@ -63,9 +63,9 @@ export default function OtherTherapy() {
                   <div className='OtherTherapyList'>
 
                     <p>
-                      We are here to provide you with the highest quality disability support services that are tailored to your individual needs. OSAN Ability has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
+                      We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adna Care has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
 
-                      We are here to provide you with the highest quality disability support services that are tailored to your individual needs. OSAN Ability has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
+                      We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adna Care has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
                     </p>
 
                   </div>

@@ -29,7 +29,7 @@ export default function AlliedHealthOld() {
                                     </p>
                                     <p className='AlliedHealthOldSubTitle'>
 
-                                        At OSAN Ability Assist, our Allied Health Assistance professionals work as a team to take a closer look at what the participants actually need. We offer a wide range of treatment methods to help restore, increase and maintain optimal physical function and general well-being.
+                                        At Adna Care Assist, our Allied Health Assistance professionals work as a team to take a closer look at what the participants actually need. We offer a wide range of treatment methods to help restore, increase and maintain optimal physical function and general well-being.
                                     </p>
 
                                     <p className='AlliedHealthOldSubTitle'>
@@ -56,12 +56,12 @@ export default function AlliedHealthOld() {
 
                                     <p className='AlliedHealthOldPara'>
 
-                                        At OSAN Ability Assist, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
+                                        At Adna Care Assist, we simply look forward to providing client-oriented care that brings all allied health together working towards the same goal. Our effective allied health plans are clinically proven with multiple benefits to every client, bringing together multi-disciplinary ideas on the client needs.
                                         Simply put, we get into the core of the health problems and find the root cause and then treat accordingly so that the client gets maximum benefits in quick time.
                                     </p>
                                     <div className='AlliedHealthOldList'>
                                         <b className='AlliedHealthOldSubTitle  mt-5'>
-                                            Why Choose OSAN Ability
+                                            Why Choose Adna Care
                                         </b>
                                         <ul>
                                             <li>MyAgedCare-funded health services</li>
