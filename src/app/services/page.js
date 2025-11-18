@@ -7,7 +7,7 @@ import pic1 from '@/app/images/heroBanner.jpg'
 export default function page() {
   return (
     <div>
-      <Header subtitle={"Sunnyaid / Therapeutic Support"} Banner={pic1}/>
+      <Header subtitle={"Adna Care  / Therapeutic Support"} Banner={pic1}/>
       <Comunity/>
       <CommunityParticipation/>
     </div>

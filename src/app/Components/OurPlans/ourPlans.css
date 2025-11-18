@@ -80,5 +80,27 @@
     .plan-title {
       font-size: 1.3rem;
     }
+
+    .plan-card p{
+       font-size: 12px;
+    }
+
+    .plan-card h3{
+      font-size: 14px;
+   }
+
+   .plan-card h5{
+    font-size: 14px;
+ }
+
+ .plan-list li{
+  font-size: 12px;
+
+ }
+
+ .PlanBtn{
+  font-size: 12px !important;
+ }
+
   }
   

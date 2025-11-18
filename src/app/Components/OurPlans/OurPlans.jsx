@@ -19,11 +19,11 @@ export default function OurPlans() {
             <div className="plan-card">
               <h3 className="plan-title">NDIS Plan Management</h3>
               <p>
-                Managing your NDIS budget doesn’t have to be hard.
-                You choose the providers, we’ll handle the bills.
+                Managing your NDIS budget does not have to be hard.
+                You choose the providers, we will handle the bills.
               </p>
 
-              <h5 className="pt-3 pb-2">With Sunnyaid, you can:</h5>
+              <h5 className="pt-3 pb-2">With Adna care , you can:</h5>
               <ul className="plan-list">
                 <li>Track NDIS funds 24/7</li>
                 <li>Pay invoices fast and accurately</li>
@@ -33,7 +33,7 @@ export default function OurPlans() {
                 <li>Access support and advice when you need it</li>
               </ul>
 
-              <Link href="#" className="btn btn-warning mt-3">
+              <Link href="#" className="btn PlanBtn btn-warning mt-3">
                 NDIS Plan Management →
               </Link>
             </div>
@@ -44,11 +44,11 @@ export default function OurPlans() {
             <div className="plan-card">
               <h3 className="plan-title">NDIS Specialist Support</h3>
               <p>
-                At Sunnyaid, we specialize in making your NDIS journey easier.
+                At Adna care , we specialize in making your NDIS journey easier.
                 Our Support Coordinators are here to help.
               </p>
 
-              <h5 className="pt-3 pb-2">With Sunnyaid, you can:</h5>
+              <h5 className="pt-3 pb-2">With adna care, you can:</h5>
               <ul className="plan-list">
                 <li>Better understand your NDIS plan</li>
                 <li>Get connected with the right service providers</li>
@@ -58,7 +58,7 @@ export default function OurPlans() {
                 <li>Access support and advice when you need it</li>
               </ul>
 
-              <Link href="#" className="btn btn-light mt-3">
+              <Link href="#" className="btn PlanBtn btn-light mt-3">
                 NDIS Plan Management →
               </Link>
             </div>

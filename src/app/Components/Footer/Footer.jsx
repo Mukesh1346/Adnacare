@@ -15,7 +15,7 @@ export default function Footer() {
              <Image src={logo} className="Footerlogo" alt="logoImg" />
   
               <p className="footer-contact">📞 +61-8-8967 5983</p>
-              <p className="footer-contact">📧 sunnyaid@gmail.com</p>
+              <p className="footer-contact">📧 adnacare @gmail.com</p>
   
               {/* <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6> */}
               {/* <div className="d-flex flex-wrap">
@@ -65,7 +65,7 @@ export default function Footer() {
               </form>
   
               <small className="d-block mt-2">
-                By continuing, you agree to Sunnyaid Terms of Use and Privacy Policy
+                By continuing, you agree to adna care Terms of Use and Privacy Policy
               </small>
             </div>
   
@@ -73,7 +73,7 @@ export default function Footer() {
   
           <hr className="footer-divider" />
   
-          <p className="text-center m-0">© 2024 Sunnyaid. All rights reserved.</p>
+          <p className="text-center m-0">© 2024 adna care . All rights reserved.</p>
   
         </div>
       </footer>

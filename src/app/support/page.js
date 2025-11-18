@@ -11,7 +11,7 @@ import Testimonial from '../Components/Testimonial/Testimonial'
 export default function page() {
   return (
     <>
-  <Header subtitle={"Sunnyaid /Support Provider"} Banner={pic1}/>
+  <Header subtitle={"Adna Care  /Support Provider"} Banner={pic1}/>
        <SupportCondition/>
        <EventsSection/>
        <Testimonial/>

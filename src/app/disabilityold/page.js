@@ -7,7 +7,7 @@ import DisabilityCareOld from '../Components/DisabilityCareOld/DisabilityCareOld
 export default function page() {
   return (
     <div>
-       <Header subtitle={"Sunnyaid / Old Aged Disability Support"} Banner={pic1} />
+       <Header subtitle={"Adna Care  / Old Aged Disability Support"} Banner={pic1} />
       <DisabilityCareOld/>
     </div>
   )

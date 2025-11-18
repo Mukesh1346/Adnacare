@@ -7,7 +7,7 @@ import pic1 from '@/app/images/DisabilityBanner.jpg'
 export default function page() {
   return (
     <div>
-       <Header subtitle={"Sunnyaid / Disability Support"} Banner={pic1} />
+       <Header subtitle={"Adna care  / Disability Support"} Banner={pic1} />
          <DisabilitySupport/>
     </div>
   )

@@ -9,7 +9,7 @@ import DomesticOld from '../Components/DomesticAssitanceOld/DomesticOld'
 export default function page() {
   return (
     <div>
-     <Header subtitle={"Sunnyaid / Domestic Support"} Banner={pic1}/>
+     <Header subtitle={"Adna Care / Domestic Support"} Banner={pic1}/>
       <DomesticOld/>
       <GetStarted/>
       <Testimonial/>

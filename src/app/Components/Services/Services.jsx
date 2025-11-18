@@ -30,6 +30,7 @@ export default function Services() {
       img: pic1,
       hoverImg: pic1Hover,
       color: "#0c3b39",
+      link: "/support"
     },
     {
       title: "Daily Living And Life Skills",
@@ -37,6 +38,7 @@ export default function Services() {
       img: pic2,
       hoverImg: pic2Hover,
       color: "#123b63",
+       link: "/supported-independent-living"
     },
     {
       title: "Support & Connection",
@@ -44,6 +46,8 @@ export default function Services() {
       img: pic3,
       hoverImg: pic3Hover,
       color: "#194f3e",
+      link: "/transport-assistant"
+
     },
     {
       title: "Therapeutic Support",
@@ -51,6 +55,8 @@ export default function Services() {
       img: pic4,
       hoverImg: pic4Hover,
       color: "#582d58",
+      link: "/physiotherapy"
+
     },
     {
       title: "Daily Living And Life Skills",
@@ -58,6 +64,8 @@ export default function Services() {
       img: pic5,
       hoverImg: pic5Hover,
       color: "#23465b",
+      link: "/other-therapy"
+
     },
     {
       title: "Support & Connection",
@@ -65,6 +73,8 @@ export default function Services() {
       img: pic6,
       hoverImg: pic6Hover,
       color: "#0e4147",
+      link: "/disabilityold"
+
     },
   ];
 
@@ -105,7 +115,7 @@ export default function Services() {
                   </div>
 
                   <div className="service-footer">
-                    <a href="#">Read More</a>
+                    <a href={item.link}>Read More</a>
                     <button className="arrow-btn">→</button>
                   </div>
                 </div>
