@@ -8,6 +8,7 @@ import icon1 from '@/app/images/icon.png'
 import icon2 from '@/app/images/icon1.png'
 
 import Swal from "sweetalert2";
+import axios from 'axios'
 
 
 export default function HeroSection() {
@@ -18,43 +19,51 @@ export default function HeroSection() {
          service:"",
          message:""
     })
+
+    const [loading, setLoading] = useState(false);
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-          ...formData,
-          [name]: value
-        });
-      };
+      const { name, value } = e.target;
+      setFormData((prev) => ({ ...prev, [name]: value }));
+    };
    const handleSubmit = async (e)=>{
     e.preventDefault()
 
 
-
     try {
+      const res = await axios.post("http://localhost:3000/api/sendEnquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: { ...formData },
+      });
+
+      if (res.data.status === true) {
         Swal.fire({
-            title: "Success!",
-            text: "Form submitted successfully",
-            icon: "success",
-            confirmButtonText: "OK",
-          });
+          title: "Success!",
+          text: res.data.message || "Form submitted successfully",
+          icon: "success",
+          confirmButtonText: "OK",
+        });
 
-          console.log(formData)
-
-         setFormData({
-            name:"",
-            phone:"",
-            email:"",
-            service:"",
-            message:""
-         })
+        // Reset form
+        setFormData({ name: "", phone: "", email: "", service: "", message: "", });
+      } else {
+        Swal.fire({
+          title: "Error!",
+          text: res.data.message || "enquary fails",
+          icon: "error",
+          confirmButtonText: "OK",
+        });
+      }
     } catch (error) {
-        console.log(error);
-        Swal.fire({
-            title: "Error!",
-            text: "Something went wrong. Please try again.",
-            icon: "error",
-            confirmButtonText: "OK",
-          });
+      console.error(error);
+      Swal.fire({
+        title: "Error!",
+        text: error.message || "Something went wrong. Please try again.",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
+    } finally {
+      setLoading(false);
     }
 
    }
