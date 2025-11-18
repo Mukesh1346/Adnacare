@@ -5,6 +5,7 @@ import Pic2 from '@/app/images/PersonalCare1.jpg'
 import './personalcare.css'
 import FAQ from '../FAQ/FAQ'
 import Testimonial from '../Testimonial/Testimonial'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function PersonalCare1() {
     return (
@@ -91,7 +92,7 @@ At the heart of Adna Cares approach is a dedication to understanding and respect
                 </div>
             </div>
 
-            <div>
+            {/* <div>
             <div className="row justify-content-center">
         <div className="col-lg-8">
           <div className="p-4 p-md-5 bg-light rounded shadow-sm">
@@ -124,8 +125,8 @@ At the heart of Adna Cares approach is a dedication to understanding and respect
           </div>
         </div>
       </div>
-            </div>
-
+            </div> */}
+              <InquiryForm/>
 
            <div>
             <FAQ/>

@@ -5,6 +5,7 @@ import Pic2 from '@/app/images/AlliedHealthOld2.jpg'
 import './health.css'
 import FAQ from '../FAQ/FAQ'
 import Testimonial from '../Testimonial/Testimonial'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function AlliedHealthOld() {
     return (
@@ -127,7 +128,9 @@ export default function AlliedHealthOld() {
 
             </div>
 
-
+            <div>
+                <InquiryForm/>
+            </div>
 
             <div>
                 <FAQ />

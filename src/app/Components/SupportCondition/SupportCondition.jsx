@@ -79,46 +79,7 @@ export default function SupportCondition() {
  </div>
  <Services/>
       
-      <div className="row justify-content-center">
-        <div className="col-lg-8">
-          <div className="p-4 p-md-5 bg-light rounded shadow-sm">
-            <h3 className="fw-bold mb-3 text-center">Have Questions? Let's Talk</h3>
-            <p className="text-center mb-4 small">
-              Our friendly team is ready to support you.
-            </p>
-
-            <form>
-  <div className="row g-3">
-    <div className="col-md-6">
-      <label className="form-label">Full Name</label>
-      <input type="text" className="form-control" placeholder="Enter your name" />
-    </div>
-
-    <div className="col-md-6">
-      <label className="form-label">Phone Number</label>
-      <input type="text" className="form-control" placeholder="Enter your phone number" />
-    </div>
-
-    <div className="col-12">
-      <label className="form-label">Email Address</label>
-      <input type="email" className="form-control" placeholder="Enter your email" />
-    </div>
-
-    <div className="col-12">
-      <label className="form-label">Your Message</label>
-      <textarea rows="4" className="form-control" placeholder="How can we help you?"></textarea>
-    </div>
-
-    <div className="col-12 text-center">
-      <button type="submit" className="btn btn-primary px-4 py-2">Submit Enquiry</button>
-    </div>
-  </div>
-</form>
-
-            <p className="text-center mt-3 fw-semibold">Call 1300 799 941</p>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

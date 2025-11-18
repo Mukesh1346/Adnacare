@@ -4,6 +4,7 @@ import Pic1 from '@/app/images/Physiotherapy1.jpg'
 import './Physiotherapy.css'
 import FAQ from '../FAQ/FAQ'
 import Testimonial from '../Testimonial/Testimonial'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function Physiotherapy() {
   return (
@@ -73,7 +74,7 @@ export default function Physiotherapy() {
       <div>
       
       </div>
-
+         <InquiryForm/>
 
       <div>
         <FAQ/>

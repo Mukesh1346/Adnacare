@@ -9,6 +9,7 @@ import Pic2 from "@/app/images/Support.jpg";
 import Pic3 from "@/app/images/Support.jpg";
 import Pic4 from "@/app/images/Support.jpg";
 import Pic5 from "@/app/images/Support.jpg";
+import InquiryForm from "../InquiryForm/InquiryForm";
 
 export default function DisabilityCareOld() {
   return (
@@ -93,32 +94,9 @@ export default function DisabilityCareOld() {
       </section> */}
 
       {/* ENQUIRY FORM */}
-      <section className="enquiry-section py-5">
-        <div className="container enquiry-card">
-          <h3 className="text-center fw-bold mb-4">Have Questions? We're Here to Help</h3>
-
-          <form onSubmit={(e) => e.preventDefault()}>
-            <div className="row g-3">
-              <div className="col-md-6">
-                <input type="text" className="form-control" placeholder="Full Name" required />
-              </div>
-              <div className="col-md-6">
-                <input type="text" className="form-control" placeholder="Phone Number" required />
-              </div>
-              <div className="col-12">
-                <input type="email" className="form-control" placeholder="Email Address" required />
-              </div>
-              <div className="col-12">
-                <textarea className="form-control" rows="4" placeholder="How can we assist you?"></textarea>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <button className="primary-btn mt-4 px-5 py-2">Submit</button>
-            </div>
-          </form>
-        </div>
-      </section>
+     <div>
+      <InquiryForm/>
+     </div>
 
     </div>
   );

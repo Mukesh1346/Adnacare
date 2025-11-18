@@ -14,14 +14,18 @@
 
 .RequestCallBack{
     background-color: #0b3948;
-    padding: 40px;
+    padding: 10px;
     position: absolute;
+    z-index: 10;
     width: 30%;
     bottom: -25%;
     right: 180px;
     border-radius: 30px;
 }
 
+.formContainer{
+    padding: 30px 40px !important;
+}
 
 .HeroLeftMainSec {
     flex: 0 0 50%;
@@ -112,6 +116,17 @@
     max-width: 550px;
 }
 
+.SubmitButton{
+    width: 100%;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+
+}
+
 /* Tablets */
 @media (max-width: 991px) {
     .HeroLeftMainSec{
@@ -167,6 +182,10 @@
         height: 200px;
     }
 
+
+    .formContainer {
+        padding: 0px 5px !important;
+    }
     .RequestCallBack {
         background-color: #0b3948;
         padding: 20px;

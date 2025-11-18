@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../Components/Header/Header";
   import  Banner from '@/app/images/Short-Medium-Accomodation.jpg'
   import './shortMedium.css'
+import InquiryForm from "../Components/InquiryForm/InquiryForm";
 export default function AccommodationInfo() {
   return (
    <>
@@ -79,6 +80,7 @@ export default function AccommodationInfo() {
         </div>
       </div>
     </div>
+    <InquiryForm/>
    </>
   );
 }

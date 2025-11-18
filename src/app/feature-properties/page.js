@@ -5,6 +5,7 @@ import Header from "../Components/Header/Header";
 import Banner from '@/app/images/Banner4.jpg'
 import pic1 from '@/app/images/features2.jpg'
 import pic2 from '@/app/images/features1.jpg'
+import InquiryForm from "../Components/InquiryForm/InquiryForm";
 export default function page() {
   const properties = [
     {
@@ -60,6 +61,10 @@ export default function page() {
         ))}
       </div>
     </section>
+
+    <div>
+      <InquiryForm/>
+    </div>
    </>
   );
 }

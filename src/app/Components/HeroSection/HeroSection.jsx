@@ -1,12 +1,65 @@
+        "use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import Banner1 from '@/app/images/Banner1.png'
 import './HeroSection.css'
 import { FaArrowRight } from "react-icons/fa6";
 import icon1 from '@/app/images/icon.png'
 import icon2 from '@/app/images/icon1.png'
 
+import Swal from "sweetalert2";
+
+
 export default function HeroSection() {
+    const [formData,setFormData] = useState({
+         name : "",
+         email:"",
+         phone:"",
+         service:"",
+         message:""
+    })
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value
+        });
+      };
+   const handleSubmit = async (e)=>{
+    e.preventDefault()
+
+
+
+    try {
+        Swal.fire({
+            title: "Success!",
+            text: "Form submitted successfully",
+            icon: "success",
+            confirmButtonText: "OK",
+          });
+
+          console.log(formData)
+
+         setFormData({
+            name:"",
+            phone:"",
+            email:"",
+            service:"",
+            message:""
+         })
+    } catch (error) {
+        console.log(error);
+        Swal.fire({
+            title: "Error!",
+            text: "Something went wrong. Please try again.",
+            icon: "error",
+            confirmButtonText: "OK",
+          });
+    }
+
+   }
+      
+
     return (
         <div className='MainHeroSection'>
             <div className='container'>
@@ -58,44 +111,89 @@ export default function HeroSection() {
 
             </div>
             <div className="RequestCallBack">
-    <div className="container">
-        <h3 className="text-light fw-4">Request Call Back</h3>
+  <div className="container formContainer ">
+    <h4 className="text-light fw-bold mb-2 text-center">Request Call Back</h4>
 
-        <div className="row formRow">
+    <form onSubmit={handleSubmit}>
+      <div className="row">
 
-            {/* NAME */}
-            <div className="col-md-6 formGroup text-light">
-                <label>Name *</label>
-                <input type="text" className="form-control" placeholder="Name" />
-            </div>
-
-            {/* PHONE */}
-            <div className="col-md-6 pt-2 formGroup text-light">
-                <label>Phone *</label>
-                <input type="text" className="form-control" placeholder="Phone Number" />
-            </div>
-
-            {/* EMAIL */}
-            <div className="col-md-6  pt-2 formGroup text-light">
-                <label>Email *</label>
-                <input type="email" className="form-control" placeholder="Email Address" />
-            </div>
-
-            {/* SERVICE */}
-            <div className="col-md-6  pt-2 formGroup text-light">
-                <label>Service *</label>
-                <input type="text" className="form-control" placeholder="Services" />
-            </div>
-
-            {/* MESSAGE */}
-            <div className="col-md-12 pt-2 formMessage text-light">
-                <label>Message *</label>
-                <input type="text" className="form-control" placeholder="Message" />
-            </div>
-
+        {/* NAME */}
+        <div className="col-md-6 mb-1">
+          <label className="text-light mb-1">Name *</label>
+          <input
+            type="text"
+            name="name"
+            className="form-control"
+            placeholder="Enter your name"
+            value={formData.name}
+            onChange={handleChange}
+          />
         </div>
-    </div>
+
+        {/* PHONE */}
+        <div className="col-md-6 mb-1">
+          <label className="text-light mb-1">Phone *</label>
+          <input
+            type="text"
+            name="phone"
+            className="form-control"
+            value={formData.phone}
+            placeholder="Phone "
+            onChange={handleChange}
+          />
+        </div>
+
+        {/* EMAIL */}
+        <div className="col-md-6 mb-1">
+          <label className="text-light mb-1">Email *</label>
+          <input
+            type="email"
+            value={formData.email}
+            name="email"
+            className="form-control"
+            placeholder=" Email "
+            onChange={handleChange}
+          />
+        </div>
+
+        {/* SERVICE */}
+        <div className="col-md-6 mb-1">
+          <label className="text-light mb-1">Service *</label>
+          <input
+            type="text"
+            name="service"
+            className="form-control"
+            value={formData.service}
+            placeholder=" Service"
+            onChange={handleChange}
+          />
+        </div>
+
+        {/* MESSAGE */}
+        <div className="col-md-12 mb-1">
+          <label className="text-light mb-1">Message *</label>
+          <textarea
+            name="message"
+            value={formData.message}
+            className="form-control"
+            rows="1"
+            placeholder="How can we help?"
+            onChange={handleChange}
+          ></textarea>
+        </div>
+
+        {/* SUBMIT BUTTON */}
+        <div className="col-md-12 text-center">
+          <button type="submit" className="SubmitButton" >
+            Submit
+          </button>
+        </div>
+
+      </div>
+    </form>
+  </div>
 </div>
+
 
         </div>
     )

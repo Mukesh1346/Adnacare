@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Pic1 from '@/app/images/Domestic.jpg'
 import './domesticOld.css'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function DomesticOld() {
     return (
@@ -67,6 +68,10 @@ export default function DomesticOld() {
                                 </div>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <InquiryForm/>
             </div>
         </>
     )

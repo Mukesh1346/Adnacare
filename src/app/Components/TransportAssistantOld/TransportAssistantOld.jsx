@@ -5,6 +5,7 @@ import Pic2 from '@/app/images/Transportation-AssistanceOld2.jpg'
 import './transportAssistantOld.css'
 import FAQ from '../FAQ/FAQ'
 import Testimonial from '../Testimonial/Testimonial'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function TransportAssistantOld() {
     return (
@@ -108,40 +109,7 @@ export default function TransportAssistantOld() {
                 </div>
             </div>
 
-            <div>
-            <div className="row justify-content-center">
-        <div className="col-lg-8">
-          <div className="p-4 p-md-5 bg-light rounded shadow-sm">
-            <h3 className="fw-bold mb-3 text-center">Have Questions? Lets Talk</h3>
-            <p className="text-center mb-4 small">
-              We are here to help you navigate your needs and support options.
-            </p>
-            <form>
-              <div className="row g-3">
-                <div className="col-md-6">
-                  <input type="text" className="form-control" placeholder="Full Name" />
-                </div>
-                <div className="col-md-6">
-                  <input type="text" className="form-control" placeholder="Phone" />
-                </div>
-                <div className="col-md-12">
-                  <input type="email" className="form-control" placeholder="Email" />
-                </div>
-                <div className="col-12">
-                  <textarea className="form-control" rows="4" placeholder="How can we help?"></textarea>
-                </div>
-                <div className="col-12 text-center">
-                  <button type="submit" className="btn btn-primary px-4 py-2 fw-semibold">
-                    Enquire Now
-                  </button>
-                </div>
-              </div>
-            </form>
-            <p className="text-center mt-3 fw-semibold">Call 1300 799 941</p>
-          </div>
-        </div>
-      </div>
-            </div>
+        <InquiryForm/>
 
 
            <div>

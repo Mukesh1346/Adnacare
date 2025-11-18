@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Pic1 from '@/app/images/CommunityOld1.jpg'
 import './comunityOld.css'
+import InquiryForm from '../InquiryForm/InquiryForm'
 
 export default function ComunityOld() {
     return (
@@ -64,6 +65,8 @@ export default function ComunityOld() {
                     </div>
                 </div>
             </div>
+
+            <InquiryForm/>
         </>
     )
 }

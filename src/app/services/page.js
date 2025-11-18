@@ -9,7 +9,7 @@ export default function page() {
     <div>
       <Header subtitle={"Adna Care  / Therapeutic Support"} Banner={pic1}/>
       <Comunity/>
-      <CommunityParticipation/>
+      {/* <CommunityParticipation/> */}
     </div>
   )
 }
