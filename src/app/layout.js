@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import BootstrapClient from "./BootstrapClient";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.css';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

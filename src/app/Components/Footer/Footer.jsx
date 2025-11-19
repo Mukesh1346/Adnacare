@@ -2,6 +2,7 @@ import React from "react"
 import './footer.css'
 import Image from "next/image"
 import logo from "@/app/images/logo1.png";
+import { a } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -28,12 +29,18 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6">
               <h6 className="footer-heading">🪐 NEED HELP</h6>
               <ul className="footer-list">
-                <li>Donate Us</li>
+              <li><a className=" text-decoration-none text-light" href="/personal-care1">Personal Care</a></li>
+                <li><a className=" text-decoration-none text-light" href="/oldcommunity-participation">Community Participation</a></li>
+                <li><a className=" text-decoration-none text-light" href="/transport-assistant-old">Transport Assistant</a></li>
+                <li><a className=" text-decoration-none text-light" href="/disabilityold">Disability Care Services</a></li>
+                <li><a className=" text-decoration-none text-light" href="/domestic-old">Domestic Assistance</a></li>
+                <li><a className=" text-decoration-none text-light" href="/allied-health-old">Allied Health</a></li>
+                {/* <li>Donate Us</li>
                 <li>Our Team</li>
                 <li>Fundraise For Us</li>
                 <li>Volunteer With Us</li>
                 <li>Corporate Support</li>
-                <li>NDIS Explained</li>
+                <li>NDIS Explained</li> */}
               </ul>
             </div>
   
@@ -41,12 +48,11 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6">
               <h6 className="footer-heading">🧑‍🤝‍🧑 WE GIVE CARE</h6>
               <ul className="footer-list">
-                <li>Queensland</li>
-                <li>NSW & ACT</li>
-                <li>Victoria</li>
-                <li>Western Australia</li>
-                <li>South Australia</li>
-                <li>Washington, D.C.</li>
+              <li><a className=" text-decoration-none text-light" href="/personal-care2">Personal Care</a></li>
+                <li><a className=" text-decoration-none text-light" href="/community-participation">Community Participation</a></li>
+                <li><a className=" text-decoration-none text-light" href="/transport-assistant">Transport Assistant</a></li>
+                <li><a className=" text-decoration-none text-light" href="/support">Support Coordination</a></li>
+                <li><a className=" text-decoration-none text-light" href="/disability">Disability Care Services</a></li>
               </ul>
             </div>
   
