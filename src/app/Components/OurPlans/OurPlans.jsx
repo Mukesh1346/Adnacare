@@ -33,7 +33,7 @@ export default function OurPlans() {
                 <li>Access support and advice when you need it</li>
               </ul>
 
-              <Link href="#" className="btn PlanBtn btn-warning mt-3">
+              <Link href="/personal-care1" className="btn PlanBtn btn-warning mt-3">
                 NDIS Plan Management →
               </Link>
             </div>
@@ -58,7 +58,7 @@ export default function OurPlans() {
                 <li>Access support and advice when you need it</li>
               </ul>
 
-              <Link href="#" className="btn PlanBtn btn-light mt-3">
+              <Link href="/personal-care2" className="btn PlanBtn btn-light mt-3">
                 NDIS Plan Management →
               </Link>
             </div>

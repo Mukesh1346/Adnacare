@@ -142,7 +142,7 @@ export default function InquiryForm() {
             </div>
           </form>
 
-          <p className="text-center mt-3 fw-semibold">Call 1300 799 942</p>
+          <p className="text-center mt-3 fw-semibold">Call +011 0435902321</p>
         </div>
       </div>
     </div>

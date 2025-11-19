@@ -84,8 +84,8 @@ export default function HeroSection() {
                                 </div>
 
                                 <div className='d-flex  buttonSec'>
-                                    <button className='BookBtn'>Book An Appointment <FaArrowRight /></button>
-                                    <button className='AboutBtn'>About Us  <FaArrowRight className='text-light' /></button>
+                                  <a href="/about-us">  <button className='BookBtn'>Book An Appointment <FaArrowRight /></button></a>
+                                   <a href="/contact-us"> <button className='AboutBtn'>Contact Us  <FaArrowRight className='text-light' /></button></a>
                                 </div>
 
                                 <div className=' iconSection  d-flex'>

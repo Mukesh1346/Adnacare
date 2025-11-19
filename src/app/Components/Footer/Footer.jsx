@@ -14,9 +14,9 @@ export default function Footer() {
             {/* Column 1 */}
             <div className="col-lg-3 col-md-6">
              <Image src={logo} className="Footerlogo" alt="logoImg" />
-  
-              <p className="footer-contact">📞 +61-8-8967 5983</p>
-              <p className="footer-contact">📧 adnacare @gmail.com</p>
+   
+              <p className="footer-contact">📞 +011 0435902321 </p>
+              <p className="footer-contact">📧 Info@adnacare.com.au</p>
   
               {/* <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6> */}
               {/* <div className="d-flex flex-wrap">
@@ -27,14 +27,16 @@ export default function Footer() {
   
             {/* Column 2 */}
             <div className="col-lg-3 col-md-6">
-              <h6 className="footer-heading">🪐OUR SERVICES</h6>
+              <h6 className="footer-heading">🪐Care for Seniors</h6>
               <ul className="footer-list">
-              <li><a className=" text-decoration-none text-light" href="/personal-care1">Personal Care</a></li>
-                <li><a className=" text-decoration-none text-light" href="/oldcommunity-participation">Community Participation</a></li>
-                <li><a className=" text-decoration-none text-light" href="/transport-assistant-old">Transport Assistant</a></li>
-                <li><a className=" text-decoration-none text-light" href="/disabilityold">Disability Care Services</a></li>
-                <li><a className=" text-decoration-none text-light" href="/domestic-old">Domestic Assistance</a></li>
-                <li><a className=" text-decoration-none text-light" href="/allied-health-old">Allied Health</a></li>
+              <li><a className="text-decoration-none text-light" href="/elder-care">Elder Care</a> – Support for seniors</li>
+<li><a className="text-decoration-none text-light" href="/oldcommunity-participation">Community</a> – Stay social</li>
+<li><a className="text-decoration-none text-light" href="/transport-assistant-old">Transport</a> – Safe rides</li>
+<li><a className="text-decoration-none text-light" href="/disabilityold">Disability Care</a> – Special support</li>
+<li><a className="text-decoration-none text-light" href="/domestic-old">Domestic Help</a> – Home chores</li>
+<li><a className="text-decoration-none text-light" href="/allied-health-old">Allied Health</a> – Health services</li>
+
+
                 {/* <li>Donate Us</li>
                 <li>Our Team</li>
                 <li>Fundraise For Us</li>
@@ -46,7 +48,7 @@ export default function Footer() {
   
             {/* Column 3 */}
             <div className="col-lg-3 col-md-6">
-              <h6 className="footer-heading">🧑‍🤝‍🧑 WE GIVE CARE</h6>
+              <h6 className="footer-heading">🧑‍🤝‍🧑 CARE SERVICE </h6>
               <ul className="footer-list">
               <li><a className=" text-decoration-none text-light" href="/personal-care2">Personal Care</a></li>
                 <li><a className=" text-decoration-none text-light" href="/community-participation">Community Participation</a></li>
