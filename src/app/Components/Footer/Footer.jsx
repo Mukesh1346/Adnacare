@@ -27,7 +27,7 @@ export default function Footer() {
   
             {/* Column 2 */}
             <div className="col-lg-3 col-md-6">
-              <h6 className="footer-heading">🪐 NEED HELP</h6>
+              <h6 className="footer-heading">🪐OUR SERVICES</h6>
               <ul className="footer-list">
               <li><a className=" text-decoration-none text-light" href="/personal-care1">Personal Care</a></li>
                 <li><a className=" text-decoration-none text-light" href="/oldcommunity-participation">Community Participation</a></li>
