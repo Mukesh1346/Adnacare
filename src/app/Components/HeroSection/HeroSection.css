@@ -191,7 +191,7 @@
         padding: 20px;
         position: absolute;
         width: 88%;
-        bottom: -37%;
+        bottom: -44%;
         right: 5%;
         border-radius: 30px;
     }
@@ -249,8 +249,12 @@
     .BookBtn, .AboutBtn {
         width: 100%;
         max-width: 250px;
-        padding: 12px 0;
+       
         font-size: 14px;
+    }
+
+    .BookBtn .AboutBtn{
+        padding:12px 18px !important;
     }
 
     .iconSection {

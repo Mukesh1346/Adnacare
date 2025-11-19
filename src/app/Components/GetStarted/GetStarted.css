@@ -114,6 +114,7 @@
   @media (max-width: 768px) {
     .step-card {
       padding-bottom: 20px;
+      padding-top: 50px;
     }
   
 .three-steps{
@@ -132,7 +133,7 @@
   font-weight: 600;
   font-size: 16px;
   position: absolute;
-  top: -33px;
+  top: -3px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -169,7 +170,7 @@
 }
 
 .GetStartedContainer{
-  margin-top: 80px !important;
+  margin-top: 130px !important;
 }
 
 .GetStartedMainSection{
