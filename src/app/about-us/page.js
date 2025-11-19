@@ -12,7 +12,7 @@ export default function Page() {
 
 
       <div className="container my-5">
-        <h2 className='text-center'>About Us – Adna Care</h2>
+        <h2 className='text-center ThemeTitle'>About Us – Adna Care</h2>
         <p>At Adna Care, we are a fully accredited and approved NDIS service provider that offers short term accommodation & assistance. Our operational principles aim to enhance the lifestyle of our accommodators by encouraging independence and creating both group and individual opportunities within the community.
 
           With highly experienced, qualified staff, we have created a homely, comfortable, respectful, caring, safe and enjoyable environment for all our accommodators.</p>

@@ -71,7 +71,7 @@ export default function SupportCondition() {
 
 <p>Adna Care and the NDIA work closely together to ensure that all NDIS participants experience a smooth transition to another service provider of their choice and that nobody is left without care during the transition period.</p>
 
-<p>If you would like to enrol under the NDIS program for the first time, please contact us on <strong>1300 799 941</strong> or contact the National Disability Insurance Agency (NDIA).</p>
+<p>If you would like to enrol under the NDIS program for the first time, please contact us on <strong>+011 0435902321 941</strong> or contact the National Disability Insurance Agency (NDIA).</p>
 
 </div>
 

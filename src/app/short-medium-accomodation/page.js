@@ -74,7 +74,7 @@ export default function AccommodationInfo() {
 
           <div className="text-center mt-4">
             <a href="tel:1300799941" className="btn btn-primary btn-lg">
-              Call Us: 1300 799 941
+              Call Us: +011 0435902321 941
             </a>
           </div>
         </div>

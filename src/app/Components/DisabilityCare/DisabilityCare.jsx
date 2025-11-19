@@ -26,7 +26,7 @@ export default function DisabilitySupportBeautiful() {
             </p>
             <div className="mt-4 buttonSec">
               <button className="primary-btn">Check Eligibility</button>
-              <p className="call-text mt-3">Call <strong>1300 799 941</strong></p>
+              <p className="call-text mt-3">Call <strong>+011 0435902321 941</strong></p>
             </div>
           </div>
           <div className="col-lg-6 text-center">
