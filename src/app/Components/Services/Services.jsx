@@ -19,9 +19,12 @@ import pic3Hover from "@/app/images/ServiceHover3.png";
 import pic4Hover from "@/app/images/ServiceHover4.png";
 import pic5Hover from "@/app/images/ServiceHover5.png";
 import pic6Hover from "@/app/images/ServiceHover6.png";
+import { useRouter } from "next/navigation";
+
 
 export default function Services() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const router = useRouter();
 
   const services = [
     {
@@ -76,7 +79,12 @@ export default function Services() {
       link: "/disabilityold"
 
     },
+    
   ];
+
+  const redirectPage = (link) =>{
+                router.push(link)     
+  }
 
   return (
     <>
@@ -91,7 +99,8 @@ export default function Services() {
             {services.map((item, index) => {
               const isHovered = hoveredIndex === index;
               return (
-                <div
+
+                 <div
                   key={index}
                   className="service-card"
                   style={{
@@ -102,6 +111,7 @@ export default function Services() {
                   }}
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(null)}
+                  onClick={()=>redirectPage(item.link)}
                 >
                   <h3>{item.title}</h3>
                   <p>{item.desc}</p>
@@ -115,10 +125,11 @@ export default function Services() {
                   </div>
 
                   <div className="service-footer">
-                    <a href={item.link}>Read More</a>
+                    {/* <a href={item.link}>Read More</a> */}
                     <button className="arrow-btn">→</button>
                   </div>
                 </div>
+             
               );
             })}
           </div>
