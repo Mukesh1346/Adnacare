@@ -3,14 +3,11 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* 🚫 Remove system theme detection completely */
+/* No prefers-color-scheme, no auto dark mode */
 
 
+/* ---------- Custom Font ---------- */
 @font-face {
   font-family: 'Stardom-Regular';
   src: url('/public/fonts/Stardom-Regular/Stardom-Regular.woff2') format('woff2'),
@@ -22,21 +19,28 @@
 }
 
 
-
+/* ---------- Global Styles ---------- */
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
+  /* 🚫 Force browsers to use LIGHT rendering, ignore system theme */
+  color-scheme: light !important;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* 🚫 Force fixed colors — never change based on user theme */
+  background: #ffffff !important;
+  color: #000000 !important;
+
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* ---------- Reset ---------- */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -48,14 +52,9 @@ a {
   text-decoration: none;
 }
 
-.ThemeTitle{
+
+/* ---------- Custom Class ---------- */
+.ThemeTitle {
   font-weight: 700;
   color:#0b3948;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  html {
-    /* color-scheme: dark; */
-  }
 }
