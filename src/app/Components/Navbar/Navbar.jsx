@@ -5,6 +5,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 import { useState } from "react";
 import logo from "@/app/images/logo1.png";
 import "./navbar.css";
+import { FaPhoneAlt } from "react-icons/fa";
 import { Black_And_White_Picture } from "next/font/google";
 
 export default function Navbar() {
@@ -22,7 +23,8 @@ export default function Navbar() {
       <div className="top-navbar d-flex justify-content-between align-items-center px-4 py-2">
         <div className="contact-info d-flex gap-3">
           <span><i className="bi bi-envelope"></i>info@adncare.com.au</span>
-          <span><i className="bi bi-telephone"></i>  +91 9876543210</span>
+          <span> <FaPhoneAlt className="me-2"/> 0493664688
+          </span>
         </div>
         <div className="social-icons d-flex gap-3">
           <Link href="#"><Instagram size={18} /></Link>

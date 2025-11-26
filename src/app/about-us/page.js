@@ -46,10 +46,11 @@ export default function Page() {
             </p>
             <p>
               <strong>Email:</strong> info@adncare.com.au <br />
-              <strong>Phone:</strong> +61 123 456 789 <br />
-              <strong>Address:</strong> 123 Main St, Sydney, NSW
+              <strong>Phone:</strong> 0493664688
+              <br />
+              <strong>Address:</strong>  Aveley, Perth
             </p>
-            <p>Our exceptional staff will answer your questions and value your feedback. Get in touch today!</p>
+            <div>Our exceptional staff will answer your questions and value your feedback. Get in touch today!</div>
           </div>
 
           {/* Right side - Map */}

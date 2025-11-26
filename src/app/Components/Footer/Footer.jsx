@@ -17,7 +17,7 @@ export default function Footer() {
 
             <p className="footer-contact">📞 +011 0493664688
             </p>
-            <p className="footer-contact">📧 Info@Adnacare support services.com.au</p>
+            <p className="footer-contact">📧 Info@Adnacare.com.au</p>
 
             {/* <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6> */}
             {/* <div className="d-flex flex-wrap">
