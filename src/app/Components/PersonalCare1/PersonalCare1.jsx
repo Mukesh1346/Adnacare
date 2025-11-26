@@ -25,13 +25,13 @@ export default function PersonalCare1() {
                                 <div className='PersonalCareTextSec'>
                                     <h2 className='PersonalCareTitle'>Support at Home | Aged Care Services</h2>
 
-                                    <p className='PersonalCareSubTitle'>Adna Care is a trusted provider of in-home aged care services, specialising in delivering personalised and compassionate personal care to seniors in the comfort of their own homes. With a commitment to promoting independence, dignity, and well-being, Adna Cares caregivers offer a range of support services tailored to meet the unique needs of each individual client.
+                                    <p className='PersonalCareSubTitle'>Adnacare support services is a trusted provider of in-home aged care services, specialising in delivering personalised and compassionate personal care to seniors in the comfort of their own homes. With a commitment to promoting independence, dignity, and well-being, Adnacare support servicess caregivers offer a range of support services tailored to meet the unique needs of each individual client.
 
-At the heart of Adna Cares approach is a dedication to understanding and respecting the preferences and routines of seniors. Our caregivers take the time to build meaningful relationships with participants, fostering trust and rapport that allows for open communication and personalised care planning.
+At the heart of Adnacare support servicess approach is a dedication to understanding and respecting the preferences and routines of seniors. Our caregivers take the time to build meaningful relationships with participants, fostering trust and rapport that allows for open communication and personalised care planning.
 
     </p>
                                     <p className='PersonalCareSubTitle'>
-                                    Adna Cares personal care services encompass a variety of essential activities designed to help seniors maintain their independence and quality of life. This may include assistance with activities of daily living such as bathing, dressing, grooming, and toileting, provided with sensitivity and respect for each individuals dignity and privacy.
+                                    Adnacare support servicess personal care services encompass a variety of essential activities designed to help seniors maintain their independence and quality of life. This may include assistance with activities of daily living such as bathing, dressing, grooming, and toileting, provided with sensitivity and respect for each individuals dignity and privacy.
 
 
                                     </p>

@@ -17,7 +17,7 @@ export default function Page() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions, concerns, or feedback, we are here for you. 
-            Contact NDIS and Aged Care Provider Adna Care Sydney via email, phone, or post.
+            Contact NDIS and Aged Care Provider Adnacare support services Sydney via email, phone, or post.
           </p>
           <p>
             <strong>Email:</strong> info@osanability.com <br/>

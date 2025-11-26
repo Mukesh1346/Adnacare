@@ -12,7 +12,7 @@ import InquiryForm from '../Components/InquiryForm/InquiryForm'
 export default function page() {
   return (
     <>
-  <Header subtitle={"Adna Care  /Support Provider"} Banner={pic1}/>
+  <Header subtitle={"Adnacare support services  /Support Provider"} Banner={pic1}/>
        <SupportCondition/>
        <EventsSection/>
        <InquiryForm/>

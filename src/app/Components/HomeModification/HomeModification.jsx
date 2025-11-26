@@ -25,7 +25,7 @@ export default function HomeModification() {
                                     </h2>
 
                                     <p className='HomeModificationSubTitle'>
-                                        Adna Care Assist provides supported living services to support people with disabilities who are living in their own home or living with others. We understand the need to have some modifications in your house to ensure that safety is never compromised. Home modifications are changes to the structure, layout or fittings of a participant’s home so they safely access it and move around comfortably in areas they frequently use.
+                                        Adnacare support services Assist provides supported living services to support people with disabilities who are living in their own home or living with others. We understand the need to have some modifications in your house to ensure that safety is never compromised. Home modifications are changes to the structure, layout or fittings of a participant’s home so they safely access it and move around comfortably in areas they frequently use.
                                     </p>
 
                                     <ul className='HomeModificationSubTitle'>

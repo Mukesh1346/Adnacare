@@ -8,7 +8,7 @@ import GetStarted from '@/app/Components/GetStarted/GetStarted'
 export default function page() {
   return (
     <div>
-     <Header subtitle={"Adna Care  / Domestic Support"} Banner={pic1}/>
+     <Header subtitle={"Adnacare support services  / Domestic Support"} Banner={pic1}/>
       <Domestic/>
       <GetStarted/>
       <Testimonial/>

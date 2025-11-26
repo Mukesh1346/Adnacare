@@ -15,7 +15,7 @@ export default function SupportCondition() {
         <div className="col-lg-6 mb-4 mb-lg-0">
           <h1 className="fw-bold mb-3">Disability Support Coordination</h1>
           <p className="lead">
-            At Adna Care, we provide professional and personalised support coordination to
+            At Adnacare support services, we provide professional and personalised support coordination to
             ensure you receive the right care, at the right time.
           </p>
         </div>
@@ -61,15 +61,15 @@ export default function SupportCondition() {
 
 <div className="container SupportParaText">
   
-<p>At Adna Care, we look to provide you with the highest quality disability support services that are tailored to your individual needs. Adna Care has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.</p>
+<p>At Adnacare support services, we look to provide you with the highest quality disability support services that are tailored to your individual needs. Adnacare support services has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.</p>
 
-<p>Adna Care can work with you to provide support, in the way that suits you best. It is important under the NDIS program that you inform us all types of services and supports you may require to support you to live your life as independently as possible.</p>
+<p>Adnacare support services can work with you to provide support, in the way that suits you best. It is important under the NDIS program that you inform us all types of services and supports you may require to support you to live your life as independently as possible.</p>
 
-<p>Adna Care employs a diverse group of staff who can assist with a wide range of support services, including traditional supports such as personal care and domestic assistance, through to individualised supports, to meet your social, recreational, occupational and personal needs.</p>
+<p>Adnacare support services employs a diverse group of staff who can assist with a wide range of support services, including traditional supports such as personal care and domestic assistance, through to individualised supports, to meet your social, recreational, occupational and personal needs.</p>
 
 <p>We can also assist with a broader range of services that you may require, for example, we can provide specific staff training to meet complex individual needs, and clinical staff (including Registered Nurses) for specialised care.</p>
 
-<p>Adna Care and the NDIA work closely together to ensure that all NDIS participants experience a smooth transition to another service provider of their choice and that nobody is left without care during the transition period.</p>
+<p>Adnacare support services and the NDIA work closely together to ensure that all NDIS participants experience a smooth transition to another service provider of their choice and that nobody is left without care during the transition period.</p>
 
 <p>If you would like to enrol under the NDIS program for the first time, please contact us on <strong>+011 0435902321 941</strong> or contact the National Disability Insurance Agency (NDIA).</p>
 

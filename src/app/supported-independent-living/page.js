@@ -41,7 +41,7 @@ export default function SupportedIndependent() {
         people with disabilities live as independently as possible.
       </p>
       <p>
-        At Adna Care Assist, we deliver high-quality SIL services in Sydney,
+        At Adnacare support services Assist, we deliver high-quality SIL services in Sydney,
         available in both shared group-home environments and as individual drop-in
         support within your own home. Our comfortable and accessible properties are
         located close to local amenities, transport, and community services, ensuring
@@ -50,7 +50,7 @@ export default function SupportedIndependent() {
       <p>
         Our experienced and compassionate staff are trained to support participants
         with complex needs as well as those seeking a more independent style of
-        living. With Adna Care Assist, you receive personalised care, a safe
+        living. With Adnacare support services Assist, you receive personalised care, a safe
         environment, and the support needed to achieve greater independence and
         quality of life.
       </p>
@@ -104,11 +104,11 @@ export default function SupportedIndependent() {
 
                   <p className='SupportedIndependentPara'>
               
-At Adna Care, we understand that Supported Independent Living (SIL) is more than just providing support its about helping you or your loved one live a life of independence, dignity, and confidence. As a trusted NDIS-registered SIL provider in Sydney, we tailor our services to each individual s needs, preferences, and goals.
+At Adnacare support services, we understand that Supported Independent Living (SIL) is more than just providing support its about helping you or your loved one live a life of independence, dignity, and confidence. As a trusted NDIS-registered SIL provider in Sydney, we tailor our services to each individual s needs, preferences, and goals.
 
 Our experienced and caring team offers consistent support, whether in a shared home or through personalised in-home assistance. We focus on creating a safe, comfortable, and empowering environment where participants can grow, explore new opportunities, and connect with their community.
 
-With Adna Care, you are not just receiving support you are gaining a partner committed to enhancing quality of life, promoting independence, and providing care with compassion and respect.
+With Adnacare support services, you are not just receiving support you are gaining a partner committed to enhancing quality of life, promoting independence, and providing care with compassion and respect.
 
                   </p>
                 

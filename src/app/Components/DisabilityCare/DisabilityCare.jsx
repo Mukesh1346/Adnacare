@@ -21,7 +21,7 @@ export default function DisabilitySupportBeautiful() {
           <div className="col-lg-6">
             <h1 className="hero-title">Disability Support You Can Trust</h1>
             <p className="hero-text">
-              At Adna Care, we provide caring, high-quality disability support services tailored to each individual.
+              At Adnacare support services, we provide caring, high-quality disability support services tailored to each individual.
               Our team includes experienced Support Workers, Nurses, Occupational Therapists, and dedicated care staff.
             </p>
             <div className="mt-4 buttonSec">
@@ -67,7 +67,7 @@ export default function DisabilitySupportBeautiful() {
        <div className="info-text-section">
        <h2 className="section-title mb-4">NDIS Disability Support</h2>
         <p>
-          At Adna Care, we provide support that adapts to your lifestyle and needs. We proudly assist participants in
+          At Adnacare support services, we provide support that adapts to your lifestyle and needs. We proudly assist participants in
           Sydney, Melbourne, and Brisbane at every stage of their NDIS journey.
         </p>
         <p>

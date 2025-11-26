@@ -15,7 +15,7 @@ export default function AccommodationInfo() {
             Short Term Accommodation & Respite Care Provider
           </h2>
           <p>
-            At <strong>Adna Care</strong>, we are a fully accredited and approved
+            At <strong>Adnacare support services</strong>, we are a fully accredited and approved
             NDIS service provider that offers short term accommodation &
             assistance. Our operational principles aim to enhance the lifestyle of
             our accommodators by encouraging independence and creating both group
@@ -51,7 +51,7 @@ export default function AccommodationInfo() {
 
           <h3 className="mt-5 fw-bold">Medium Term Accommodation</h3>
           <p>
-            Adna Care is a registered NDIS provider offering medium-term
+            Adnacare support services is a registered NDIS provider offering medium-term
             accommodation services in Sydney, NSW. Our independent living services
             allow people with a disability to live the way they want with tailored
             support.
@@ -68,7 +68,7 @@ export default function AccommodationInfo() {
           </ul>
 
           <p className="mt-3">
-            Adna Care will work with you to provide tailored short-term and
+            Adnacare support services will work with you to provide tailored short-term and
             medium-term accommodation support. Staff members are onsite 24/7.
           </p>
 

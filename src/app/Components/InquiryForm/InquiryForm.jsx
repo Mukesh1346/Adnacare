@@ -27,7 +27,7 @@ export default function InquiryForm() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://adnacare.com.au/api/sendEnquiry", {
+      const res = await axios.post("http://Adnacare support services.com.au/api/sendEnquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: { ...formData },

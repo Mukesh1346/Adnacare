@@ -15,8 +15,9 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6">
             <Image src={logo} className="Footerlogo" alt="logoImg" />
 
-            <p className="footer-contact">📞 +011 0435902321 </p>
-            <p className="footer-contact">📧 Info@adnacare.com.au</p>
+            <p className="footer-contact">📞 +011 0493664688
+            </p>
+            <p className="footer-contact">📧 Info@Adnacare support services.com.au</p>
 
             {/* <h6 className="footer-heading mt-4">📲 DOWNLOAD APP</h6> */}
             {/* <div className="d-flex flex-wrap">
@@ -73,7 +74,7 @@ export default function Footer() {
             </form>
 
             <small className="d-block mt-2">
-              By continuing, you agree to adna care Terms of Use and Privacy Policy
+              By continuing, you agree to Adnacare support services Terms of Use and Privacy Policy
             </small>
           </div>
 
@@ -81,7 +82,7 @@ export default function Footer() {
 
         <hr className="footer-divider" />
 
-        <p className="text-center m-0">© 2024 adna care . All rights reserved.</p>
+        <p className="text-center m-0">© 2024 Adnacare support services . All rights reserved.</p>
 
       </div>
     </footer>

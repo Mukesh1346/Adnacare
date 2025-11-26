@@ -23,7 +23,7 @@ export default function OurPlans() {
                 You choose the providers, we will handle the bills.
               </p>
 
-              <h5 className="pt-3 pb-2">With Adna care , you can:</h5>
+              <h5 className="pt-3 pb-2">With Adnacare support services , you can:</h5>
               <ul className="plan-list">
                 <li>Track NDIS funds 24/7</li>
                 <li>Pay invoices fast and accurately</li>
@@ -44,11 +44,11 @@ export default function OurPlans() {
             <div className="plan-card">
               <h3 className="plan-title">NDIS Specialist Support</h3>
               <p>
-                At Adna care , we specialize in making your NDIS journey easier.
+                At Adnacare support services , we specialize in making your NDIS journey easier.
                 Our Support Coordinators are here to help.
               </p>
 
-              <h5 className="pt-3 pb-2">With adna care, you can:</h5>
+              <h5 className="pt-3 pb-2">With Adnacare support services, you can:</h5>
               <ul className="plan-list">
                 <li>Better understand your NDIS plan</li>
                 <li>Get connected with the right service providers</li>

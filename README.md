@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://adnacare.com.au](http://adnacare.com.au) with your browser to see the result.
+Open [http://Adnacare support services.com.au](http://Adnacare support services.com.au) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 

@@ -26,7 +26,7 @@ export default function PersonalCare() {
                   <h2 className='PersonalCareTitle'>NDIS Personal Care services</h2>
 
                   <p className='PersonalCareSubTitle'>Disabled people are not from one group. Every disabled person has different health conditions and
-                    challenges. This is something we recognise here at Adna Care, where we provide personalised care for the disabled. We make sure that you or your loved one would receive the care you need so that you can
+                    challenges. This is something we recognise here at Adnacare support services, where we provide personalised care for the disabled. We make sure that you or your loved one would receive the care you need so that you can
                     live a happy and comfortable life.
 
                     We never provide a one-size-fits-all solution. Our service is entirely centered on you and your needs. Our team includes professional, experienced and devoted Disability Support Workers, Registered Nurses, and Assistants in Nursing, Occupational Therapists, Handymen and Garden crew, providing high quality services to our clients.
@@ -56,12 +56,12 @@ export default function PersonalCare() {
                   <h2 className='PersonalCareTitle'> Aged Care Services</h2>
 
                   <p className='PersonalCarePara'>
-                    At Adna Care, we prioritise the comfort and well-being of our clients above all else. Our goal is not only to meet their immediate care needs but also to foster a supportive environment where they feel empowered and valued. By collaborating closely with participants and their support networks, we strive to create tailored care plans that promote independence and enhance quality of life.
+                    At Adnacare support services, we prioritise the comfort and well-being of our clients above all else. Our goal is not only to meet their immediate care needs but also to foster a supportive environment where they feel empowered and valued. By collaborating closely with participants and their support networks, we strive to create tailored care plans that promote independence and enhance quality of life.
 
                   </p>
                   <br />
                   <p>
-                    With Adna Care, individuals can rest assured that they are receiving top-quality NDIS Personal Care services delivered with professionalism, compassion, and a commitment to excellence.
+                    With Adnacare support services, individuals can rest assured that they are receiving top-quality NDIS Personal Care services delivered with professionalism, compassion, and a commitment to excellence.
                   </p>
 
                   <div className='PersonalCareList'>
@@ -83,9 +83,9 @@ export default function PersonalCare() {
                     </ul>
 
             <p>
-            We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adna Care has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
+            We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adnacare support services has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
 
-We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adna Care has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
+We are here to provide you with the highest quality disability support services that are tailored to your individual needs. Adnacare support services has been providing disability support services in Sydney, Melbourne and Brisbane for many years and is equipped to assist you whatever stage you are in.
             </p>
 
                   </div>

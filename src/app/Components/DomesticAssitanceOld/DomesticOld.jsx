@@ -22,7 +22,7 @@ export default function DomesticOld() {
                                 <div className='DomesticOldTextSec'>
                                     <h2 className='DomesticOldTitle'>Discover the Power of Inclusion: NDIS Community Participation</h2>
 
-                                    <p className='DomesticOldSubTitle'>At Adna Care Assist, we offer Domestic assistance service to elderly people. Here we carry out all manner of domestic tasks around the home that disabled & aged people may find hard to perform. These may be basic jobs like taking out the rubbish, or a more comprehensive clean of the whole house. Either way, the end goals are the same – to make day to day life more enjoyable and to minimise the risks associated with a cluttered, untidy home.
+                                    <p className='DomesticOldSubTitle'>At Adnacare support services Assist, we offer Domestic assistance service to elderly people. Here we carry out all manner of domestic tasks around the home that disabled & aged people may find hard to perform. These may be basic jobs like taking out the rubbish, or a more comprehensive clean of the whole house. Either way, the end goals are the same – to make day to day life more enjoyable and to minimise the risks associated with a cluttered, untidy home.
 
 
                                     </p>

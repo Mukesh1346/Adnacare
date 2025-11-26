@@ -22,9 +22,9 @@ export default function ComunityOld() {
                                 <div className='ComunityOldTextSec'>
                                     <h2 className='ComunityOldTitle'> Community Participation</h2>
 
-                                    <p className='ComunityOldSubTitle'>As you get older, you feel the need to belong to a community and feel connected to people your age. As much as you would like spending time with your family, it is important to form your own socal circle. At Adna Care, we have a huge vision of forming different communities within our team with a range of community & social participation programs focused on empowering older adults. It can be incredibly hard and demotivating and these social activities can be beneficial and fulfilling.
+                                    <p className='ComunityOldSubTitle'>As you get older, you feel the need to belong to a community and feel connected to people your age. As much as you would like spending time with your family, it is important to form your own socal circle. At Adnacare support services, we have a huge vision of forming different communities within our team with a range of community & social participation programs focused on empowering older adults. It can be incredibly hard and demotivating and these social activities can be beneficial and fulfilling.
 
-                                        Community Participation however can help you to get connected to different people as it is one of the most important parts for all the elderly both their physical & emotional well-being. Thats why Adna Care provides a range of community & social participation programs
+                                        Community Participation however can help you to get connected to different people as it is one of the most important parts for all the elderly both their physical & emotional well-being. Thats why Adnacare support services provides a range of community & social participation programs
                                     </p>
 
                                 </div>

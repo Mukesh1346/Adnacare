@@ -21,12 +21,12 @@ export default function DisabilityCareOld() {
           <div className="col-lg-6">
             <h1 className="hero-title">Disability Support You Can Trust</h1>
             <p className="hero-text">
-              At Adna Care, we provide one of the most caring disability care services in Sydney. our team includes professional, experienced and devoted Disability Support Workers, Registered Nurses, and Assistants in Nursing, Occupational Therapists, Handymen and Garden crew, providing high quality services to our clients.
+              At Adnacare support services, we provide one of the most caring disability care services in Sydney. our team includes professional, experienced and devoted Disability Support Workers, Registered Nurses, and Assistants in Nursing, Occupational Therapists, Handymen and Garden crew, providing high quality services to our clients.
             </p>
                <b>Disability Support Services for Elderly Individuals</b>
-            <p>At Adna Care, we are dedicated to providing exceptional disability care services tailored to the unique needs of seniors. With extensive experience serving elderly loved ones all over Sydney. our team is well-prepared to support you at any stage.
+            <p>At Adnacare support services, we are dedicated to providing exceptional disability care services tailored to the unique needs of seniors. With extensive experience serving elderly loved ones all over Sydney. our team is well-prepared to support you at any stage.
 
-              We understand the distinct requirements of seniors with disabilities and have designed our services accordingly. Whether you need assistance with daily activities, personalised care plans, or companionship, Adna Care is devoted to enhancing the quality of life for seniors through compassionate and customised disability care.</p>
+              We understand the distinct requirements of seniors with disabilities and have designed our services accordingly. Whether you need assistance with daily activities, personalised care plans, or companionship, Adnacare support services is devoted to enhancing the quality of life for seniors through compassionate and customised disability care.</p>
 
             <div className="mt-4 CheckSec">
               <button className="primary-btn">Check Eligibility</button>
@@ -72,7 +72,7 @@ export default function DisabilityCareOld() {
       {/* CONTENT SECTION */}
       <section className="info-section container py-5">
         <div className="info-text-section">
-          <h2 className="section-title mb-4">Adna Care employs a diverse group of staff who can assist with a wide range of disability care support services, including traditional supports such as personal care and domestic assistance, through to individualised supports, to meet your social, recreational, occupational and personal needs.</h2>
+          <h2 className="section-title mb-4">Adnacare support services employs a diverse group of staff who can assist with a wide range of disability care support services, including traditional supports such as personal care and domestic assistance, through to individualised supports, to meet your social, recreational, occupational and personal needs.</h2>
           <p>
           We can also assist with a broader range of services that you may require, for example, we can provide specific staff training to meet complex individual needs, and clinical staff (including Registered Nurses) for specialised care.
           </p>
