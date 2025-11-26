@@ -5,6 +5,10 @@ import Image from "next/image";
 import "./testimonial.css";
 import pic1 from '@/app/images/client1.png';
 import pic2 from '@/app/images/client2.jpg';
+import pic3 from '@/app/images/testimonial.jpeg';
+import pic4 from '@/app/images/testimonial1.jpeg';
+import pic5 from '@/app/images/testimonial2.jpeg';
+
 
 export default function Testimonial() {
   const [isMobile, setIsMobile] = useState(false);
@@ -25,9 +29,9 @@ export default function Testimonial() {
   const testimonials = [
     { name: "Liam Johnson", role: "Our Clients", text: "Caring Hands provided exceptional support for my son's NDIS journey.", img: pic1 },
     { name: "Sarah Williams", role: "Parent", text: "They guided us through everything. Very supportive and kind.", img: pic2 },
-    { name: "David Brown", role: "Participant", text: "Their dedication and compassion improved my daily life.", img: pic1 },
-    { name: "Olivia Miller", role: "Support Coordinator", text: "Professional, reliable, and genuinely caring.", img: pic2 },
-    { name: "James Carter", role: "Our Clients", text: "They always listen and make sure your needs are met.", img: pic1 }
+    { name: "David Brown", role: "Participant", text: "Their dedication and compassion improved my daily life.", img: pic3 },
+    { name: "Olivia Miller", role: "Support Coordinator", text: "Professional, reliable, and genuinely caring.", img: pic4 },
+    { name: "James Carter", role: "Our Clients", text: "They always listen and make sure your needs are met.", img: pic5 }
   ];
 
   // Slice testimonials based on mobile or desktop

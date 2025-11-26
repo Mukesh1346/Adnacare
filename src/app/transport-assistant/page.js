@@ -1,7 +1,7 @@
 import React from 'react'
 import TransportAssistant from '../Components/TransportAssistant/TransportAssistant'
 import Header from '../Components/Header/Header'
-import Banner from '@/app/images/Banner3.jpg'
+import Banner from '@/app/images/Banner5.jpg'
 import FAQ from '../Components/FAQ/FAQ'
 
 export default function page() {

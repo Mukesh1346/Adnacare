@@ -1,8 +1,8 @@
 import Pic1 from '@/app/images/Support1.jpg';
-import Pic2 from '@/app/images/Support.jpg';
-import Pic3 from '@/app/images/Support.jpg';
-import Pic4 from '@/app/images/Support.jpg';
-import Pic5 from '@/app/images/Support.jpg';
+import Pic2 from '@/app/images/OtherTherapy2.jpg';
+import Pic3 from '@/app/images/OtherTherapy3.jpg';
+import Pic4 from '@/app/images/OtherTherapy4.jpg';
+import Pic5 from '@/app/images/PersonalCare2.jpg';
 import React from 'react';
 import './support.css';
 import Image from 'next/image';
