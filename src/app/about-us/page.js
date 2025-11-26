@@ -45,7 +45,7 @@ export default function Page() {
               Contact NDIS and Aged Care Provider Adnacare support services Sydney via email, phone, or post.
             </p>
             <p>
-              <strong>Email:</strong> info@osanability.com <br />
+              <strong>Email:</strong> info@adncare.com.au <br />
               <strong>Phone:</strong> +61 123 456 789 <br />
               <strong>Address:</strong> 123 Main St, Sydney, NSW
             </p>

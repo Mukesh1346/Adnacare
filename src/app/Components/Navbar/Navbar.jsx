@@ -21,8 +21,8 @@ export default function Navbar() {
       {/* ---------- TOP NAV ---------- */}
       <div className="top-navbar d-flex justify-content-between align-items-center px-4 py-2">
         <div className="contact-info d-flex gap-3">
-          <span><i className="bi bi-envelope"></i> info@adncare.com</span>
-          <span><i className="bi bi-telephone"></i> +91 9876543210</span>
+          <span><i className="bi bi-envelope"></i>info@adncare.com.au</span>
+          <span><i className="bi bi-telephone"></i>  +91 9876543210</span>
         </div>
         <div className="social-icons d-flex gap-3">
           <Link href="#"><Instagram size={18} /></Link>

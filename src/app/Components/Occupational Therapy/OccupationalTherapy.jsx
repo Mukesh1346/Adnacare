@@ -48,7 +48,7 @@ export default function OccupationalTherapy() {
 
 
                   <p className='OccupationalTherapySubTitle'>
-                    You can also send us your query at : info@osanability.com.au
+                    You can also send us your query at : info@adncare.com.au.au
                     ndis providers
 
                   </p>
